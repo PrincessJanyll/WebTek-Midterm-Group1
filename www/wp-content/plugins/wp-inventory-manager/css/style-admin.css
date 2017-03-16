@@ -1,0 +1,821 @@
+
+.inventorywrap {
+}
+
+.inventorywrap h2 {
+    background: transparent url(../images/admin-h-icon.png) center left no-repeat;
+    padding-left: 38px;
+}
+
+.inventorywrap h2 span.version {
+    float: right;
+    margin-right: 30px;
+    font-size: 13px;
+    color: #777;
+}
+
+.inventorywrap th {
+    padding: 10px 10px 10px 0;
+}
+
+.inventorywrap td {
+    padding: 10px;
+}
+
+.inventorywrap td h3,
+.inventorywrap th h3 {
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.inventorywrap textarea {
+    width: 500px;
+    height: 100px;
+}
+
+.inventorywrap .grid {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.inventorywrap a.delete {
+    color: #900;
+}
+
+.inventorywrap .mediasortable {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    min-height: 20px;
+    overflow: hidden;
+}
+
+.inventorywrap .imagewrapper,
+.inventorywrap .imageplaceholder {
+    border: 1px solid #ccc;
+    padding: 11px 11px 10px 10px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    text-align: center;
+    margin: 0 5px 5px 0;
+    vertical-align: top;
+    cursor: crosshair;
+}
+
+.inventorywrap .imagecontainer {
+    height: 100px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.inventorywrap div.mediacontainer {
+    line-height: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin: 12px 20px 0 0;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.inventorywrap div.mediacontainer p {
+    margin: 5px 0;
+}
+
+.inventorywrap div.mediacontainer p.media_url {
+    font-size: 12px;
+    color: #888;
+    line-height: 15px;
+    margin-top: 0;
+    vertical-align: baseline;
+}
+
+.inventorywrap div.mediacontainer p.media_url label {
+    margin-right: 5px;
+    vertical-align: baseline;
+}
+
+.inventorywrap .imagecontainer img {
+    height: 100px;
+    width: auto;
+}
+
+.inventorywrap .ui-sortable-placeholder {
+    visibility: visible !important;
+    border: 2px dashed #ccc;
+    background: #eee;
+    padding: 10px 10px 9px 9px;
+}
+
+.inventorywrap .sortable-handle {
+    color: #666;
+}
+
+.inventorywrap .ui-sortable-helper {
+    opacity: .7;
+}
+
+.inventorywrap .media-container a.delete {
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -ms-filter: "alpha(opacity=60)"; /* IE8 */
+    filter: alpha(opacity=60); /* Old IE */
+    -khtml-opacity: 0.60; /* Old Safari */
+    -moz-opacity: 0.60; /* Old Firefox, Netscape */
+    opacity: 0.60; /* Standard */
+}
+
+.inventorywrap .media-container a.delete:hover {
+    -ms-filter: "alpha(opacity=100)"; /* IE8 */
+    filter: alpha(opacity=100); /* Old IE */
+    -khtml-opacity: 1; /* Old Safari */
+    -moz-opacity: 1; /* Old Firefox, Netscape */
+    opacity: 1; /* Standard */
+}
+
+.inventorywrap .media-container .media-deleted {
+    border: 1px dashed red;
+    background: #fcc;
+}
+
+.inventorywrap .sortnotice {
+    background: #ccc;
+    font-weight: bold;
+    color: #444;
+    padding: 5px 10px;
+    margin-top: 0;
+}
+
+.inventorywrap {
+    /* background: #f1f1f1; */
+}
+
+.inventorywrap h2 {
+    background: transparent url(../images/admin-h-icon.png) center left no-repeat;
+    padding-left: 38px;
+}
+
+.inventorywrap h2 span.version {
+    float: right;
+    margin-right: 30px;
+    font-size: 13px;
+    color: #777;
+}
+
+.inventorywrap th {
+    padding: 10px 10px 10px 0;
+}
+
+.inventorywrap td {
+    padding: 10px;
+}
+
+.inventorywrap td h3,
+.inventorywrap th h3 {
+    margin: 0;
+    padding: 0;
+    text-decoration: underline;
+}
+
+.inventorywrap textarea {
+    width: 500px;
+    height: 100px;
+}
+
+.inventorywrap .theme_screenshot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    max-width: 200px;
+    height: auto;
+    vertical-align: top;
+}
+
+.inventorywrap .grid {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.inventorywrap .grid td,
+.inventorywrap .grid th {
+    padding: 4px 8px;
+}
+
+.inventorywrap .grid td {
+    border: 1px solid #ddd;
+}
+
+.inventorywrap th.name,
+.inventorywrap td.name {
+    width: 250px;
+}
+
+.inventorywrap th.number,
+.inventorywrap td.number {
+    text-align: right;
+}
+
+.inventorywrap tr.not_used th,
+.inventorywrap tr.not_used th label,
+.inventorywrap tr.not_used td span,
+.inventorywrap tr.not_used input[type="text"] {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.inventorywrap tr.not_used input[type="checkbox"] + label {
+    color: #444;
+    text-decoration: none;
+}
+
+.inventorywrap .grid td.action a {
+    margin: 0 6px;
+}
+
+.inventorywrap .grid tr.title th {
+    background: #ccc;
+}
+
+.inventorywrap .grid tr.title th strong {
+    margin-left: 5px;
+}
+
+.inventorywrap .grid td,
+.inventorywrap .grid th {
+    padding: 4px 8px;
+}
+
+.inventorywrap .grid td {
+    border: 1px solid #ddd;
+}
+
+.inventorywrap .gridsmall td,
+.inventorywrap .gridsmall th,
+.inventorywrap .gridsmall input,
+.inventorywrap .gridsmall select {
+    font-size: .9em;
+    line-height: 1.1em;
+    padding: 3px 4px;
+}
+
+.inventorywrap th.name,
+.inventorywrap td.name {
+    width: 250px;
+}
+
+.inventorywrap th.number,
+.inventorywrap td.number {
+    text-align: right;
+}
+
+.inventorywrap tr.not_used th,
+.inventorywrap tr.not_used th label,
+.inventorywrap tr.not_used td span,
+.inventorywrap tr.not_used input[type="text"] {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.inventorywrap tr.not_used input[type="checkbox"] + label {
+    color: #444;
+    text-decoration: none;
+}
+
+.inventorywrap .grid td.action a {
+    margin: 0 6px;
+}
+
+.inventorywrap .grid tr.title th {
+    background: #ccc;
+}
+
+.inventorywrap .grid tr.title th strong {
+    margin-left: 5px;
+}
+
+.inventorywrap a.delete {
+    color: #900;
+}
+
+.inventorywrap .mediasortable {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    min-height: 20px;
+    overflow: hidden;
+}
+
+.inventorywrap .imagewrapper,
+.inventorywrap .imageplaceholder {
+    border: 1px solid #ccc;
+    padding: 11px 11px 10px 10px;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    text-align: center;
+    margin: 0 5px 5px 0;
+    vertical-align: top;
+    cursor: crosshair;
+}
+
+.inventorywrap .imagecontainer {
+    height: 100px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.inventorywrap div.mediacontainer {
+    line-height: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin: 12px 20px 0 0;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.inventorywrap div.mediacontainer p {
+    margin: 5px 0;
+}
+
+.inventorywrap div.mediacontainer p.media_url {
+    font-size: 12px;
+    color: #888;
+    line-height: 15px;
+    margin-top: 0;
+    vertical-align: baseline;
+}
+
+.inventorywrap div.mediacontainer p.media_url label {
+    margin-right: 5px;
+    vertical-align: baseline;
+}
+
+.inventorywrap .imagecontainer img {
+    height: 100px;
+    width: auto;
+}
+
+.inventorywrap div.ui-sortable-placeholder {
+    visibility: visible !important;
+    border: 2px dashed #ccc;
+    background: #eee;
+    padding: 10px 10px 9px 9px;
+}
+
+.inventorywrap .ui-sortable-helper {
+    opacity: .7;
+}
+
+.inventorywrap .media-container a.delete {
+    display: block;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -ms-filter: "alpha(opacity=60)"; /* IE8 */
+    filter: alpha(opacity=60); /* Old IE */
+    -khtml-opacity: 0.60; /* Old Safari */
+    -moz-opacity: 0.60; /* Old Firefox, Netscape */
+    opacity: 0.60; /* Standard */
+}
+
+.inventorywrap .media-container a.delete:hover {
+    -ms-filter: "alpha(opacity=100)"; /* IE8 */
+    filter: alpha(opacity=100); /* Old IE */
+    -khtml-opacity: 1; /* Old Safari */
+    -moz-opacity: 1; /* Old Firefox, Netscape */
+    opacity: 1; /* Standard */
+}
+
+.inventorywrap .media-container .media-deleted {
+    border: 1px dashed red;
+    background: #fcc;
+}
+
+.inventorywrap .sortnotice {
+    background: #ccc;
+    font-weight: bold;
+    color: #444;
+    padding: 5px 10px;
+    margin-top: 0;
+}
+
+.inventorywrap .inventory-config tr th {
+    width: 270px;
+}
+
+.inventorywrap div.list {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: top;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    width: 19%;
+    margin-left: 0;
+    min-width: 140px;
+    max-width: 200px;
+    margin-right: -1%;
+}
+
+.inventorywrap div.list + div.list {
+    margin-left: 2%;
+}
+
+.inventorywrap div.list h3 {
+    background: #aaa;
+    margin: 0;
+    padding: 5px 10px;
+    text-shadow: 1px 1px #eee;
+    font-size: 14px;
+}
+
+.inventorywrap .sortable {
+    padding: 20px 5px;
+    min-height: 200px;
+    margin: 0;
+    border: 1px solid #aaa;
+}
+
+.inventorywrap .sortable li {
+    border: 1px solid #444;
+    display: block;
+    width: auto;
+    padding: 5px;
+    margin: 1px 0;
+    border-radius: 5px;
+    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.3)), color-stop(100%, rgba(0, 0, 0, 0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d000000', endColorstr='#00000000', GradientType=0); /* IE6-9 */
+    text-shadow: 1px 1px white;
+    cursor: move;
+    font-size: 12px;
+    min-height: 17px;
+}
+
+.inventorywrap .sortable li.ui-state-highlight {
+    padding: 4px;
+    border: 2px dashed #888;
+    color: #888;
+    background: white;
+}
+
+div.wpinventory_pagination {
+    text-align: right;
+}
+
+div.wpinventory_pagination span {
+    float: left;
+    color: #888;
+}
+
+div.wpinventory_pagination a {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    color: white;
+    background: #aaa;
+    width: auto;
+    padding: 0 6px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin-right: 2px;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+div.wpinventory_pagination a.page_prev {
+    margin-right: 6px;
+}
+
+div.wpinventory_pagination a.page_next {
+    margin-left: 4px;
+}
+
+div.wpinventory_pagination a.page_current {
+    font-weight: bold;
+    background: #444;
+}
+
+div.wpinventory_pagination a:hover {
+    border: 1px solid #444;
+    color: #444;
+    background: #ccc;
+}
+
+.inventorywrap div.add_on {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    width: 300px;
+    height: 460px;
+    border: 1px solid #aaa;
+    padding: 0 10px 10px 10px;
+    background: white;
+    margin: 0 10px 10px 0;
+}
+
+.inventorywrap div.add_on_installed {
+    opacity: .7;
+}
+
+.inventorywrap div.add_on h3 {
+    font-size: 18px;
+    border-bottom: 1px solid #aaa;
+    margin: 0 -10px 10px;
+    padding: 10px 20px;
+}
+
+.inventorywrap .inventory-config h3 {
+    text-decoration: underline;
+}
+
+.inventorywrap .inventory-config th h4 {
+    display: inline-block;
+    font-size: 1.10em;
+    text-decoration: underline;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.inventorywrap div.add_on .image {
+    overflow: hidden;
+    height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.inventorywrap div.add_on .image span {
+    position: absolute;
+    top: 50%;
+    left: 35px;
+    right: 35px;
+    font-size: 25px;
+    background: rgba(0, 90, 0, .7);
+    color: white;
+    display: block;
+    padding: 10px 0;
+    font-weight: bold;
+    margin-top: -19px;
+}
+
+.inventorywrap div.add_on img {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 250px;
+    height: auto;
+}
+
+.inventorywrap div.add_on div.description {
+    height: 100px;
+    overflow: hidden;
+}
+
+.inventorywrap div.add_on p.learn_more {
+    text-align: center;
+}
+
+.inventorywrap div.add_on p.learn_more a {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    margin: 0 auto;
+    padding: 8px 16px;
+    background: #090;
+    border: 1px solid #090;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.inventorywrap div.add_on p.learn_more a:hover {
+    background: #0a0;
+}
+
+.inventorywrap form.donate {
+    float: right;
+    margin-bottom: -40px;
+}
+
+.form-table td p.license {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    color: white;
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+
+.form-table td p.license_valid {
+    background: #080;
+}
+
+.form-table td p.license_invalid {
+    background: #800;
+}
+
+.wpim_tabs {
+    padding: 0 15px;
+    border-bottom: 1px solid #aaa;
+}
+
+.wpim_tabs a {
+    outline: 0;
+    display: inline-block;
+    vertical-align: bottom;
+    border: 1px solid #aaa;
+    box-shadow: none;
+    padding: 5px 10px;
+    background: #ccc;
+    text-decoration: none;
+    margin-right: -1px;
+    border-bottom: 1px solid #ccc;
+}
+
+.wpim_tabs a.active {
+    background: transparent;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+    margin-bottom: -1px;
+    padding: 7px 15px;
+}
+
+.wpim_subtabs {
+    display: none;
+}
+
+.wpim_subtabs.active {
+    display: block;
+}
+
+.wpim_subtabs a {
+    display: inline-block;
+    margin: 0;
+    padding: 1px;
+    line-height: 13px;
+}
+
+.wpim_subtabs a + a {
+    border-left: 1px solid #ccc;
+    padding-left: 8px;
+    margin-left: 8px;
+}
+
+.wpim_subtabs a.active {
+    font-weight: bold;
+}
+
+input[type="checkbox"].toggle-switch {
+    display: none;
+}
+
+input[type="checkbox"].toggle-switch + .toggle-container {
+    display: none;
+    overflow: hidden;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -o-transform-origin: top left;
+    transform-origin: top left;
+}
+
+input[type="checkbox"].toggle-switch:checked + .toggle-container {
+    display: block;
+    -webkit-animation: slideDown .5s;
+    -moz-animation: slideDown .5s;
+    -o-animation: slideDown .5s;
+    animation: slideDown .5s;
+}
+
+@media (max-width: 1200px) {
+    .inventorywrap .wpim_tabs a {
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+
+    .inventorywrap .wpim_tabs a.active {
+        padding: 7px 10px;
+    }
+}
+
+.wpim_notice {
+    border: 1px solid black;
+    border-left: 6px solid black;
+    background: white;
+    margin: 5px 0;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 3px #aaa;
+}
+
+.wpim_error {
+    border-left: 6px solid red;
+}
+
+.wpim_warning {
+    border-left: 6px solid #cccc00;
+}
+
+.wpim_success {
+    border-left: 6px solid green;
+}
+
+@-webkit-keyframes slideDown {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    1% {
+        display: block;
+        opacity: 0;
+        -webkit-transform: scaleY(0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: scaleY(1);
+    }
+}
+
+@-moz-keyframes slideDown {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    1% {
+        display: block;
+        opacity: 0;
+        -moz-transform: scaleY(0);
+    }
+    100% {
+        opacity: 1;
+        -moz-transform: scaleY(1);
+    }
+}
+
+@-o-keyframes slideDown {
+    0% {
+        display: none;
+        opacity: 0;
+    }
+    1% {
+        display: block;
+        opacity: 0;
+        -o-transform: scaleY(0);
+    }
+    100% {
+        opacity: 1;
+        -o-transform: scaleY(1);
+    }
+}
+
+@keyframes slideDown {
+    0% {
+        display: none;
+        opacity: 0;
+        max-height: 0;
+    }
+    1% {
+        display: block;
+        opacity: 0;
+        transform: scaleY(0);
+        max-height: 1000px;
+    }
+    100% {
+        opacity: 1;
+        transform: scaleY(1);
+    }
+}
+

@@ -1,0 +1,154 @@
+/* -------------------------------------------------------------- 
+   
+   Rebuild the default browser styles
+   
+   Based on work by Blueprint CSS   
+   http://code.google.com/p/blueprintcss/
+     
+-------------------------------------------------------------- */
+
+
+
+
+
+.sp-player input,
+.sp-player textarea {
+    color: #111;
+    font: 12px Arial,sans-serif;
+    line-height: 1.5;
+}
+
+
+/* Headings
+-------------------------------------------------------------- */
+
+.sp-player h1,
+.sp-player h2,
+.sp-player h3,
+.sp-player h4,
+.sp-player h5,
+.sp-player h6 {
+    font-weight: normal;
+    clear: both;
+}
+
+
+
+/* Text elements
+-------------------------------------------------------------- */
+
+.sp-player p {
+    margin-bottom: 1.5em;
+}
+.sp-player ul {
+    margin: 0 0 1.5em 2.5em;
+}
+.sp-player ol {
+    margin: 0 0 1.5em 2.5em;
+}
+.sp-player ul {
+    list-style:disc;
+}
+.sp-player ol {
+    list-style-type: decimal;
+}
+.sp-player ol ol {
+    list-style:upper-alpha;
+}
+.sp-player ol ol ol {
+    list-style:lower-roman;
+}
+.sp-player ol ol ol ol {
+    list-style:lower-alpha;
+}
+.sp-player ul ul,
+.sp-player ol ol,
+.sp-player ul ol,
+.sp-player ol ul {
+    margin-bottom:0;
+}
+.sp-player dl	{
+    margin:0 1.5em;
+}
+.sp-player dt {
+    font-weight: bold;
+}
+.sp-player dd {
+    margin-bottom: 1.5em;
+}
+.sp-player strong {
+    font-weight: bold;
+}
+.sp-player cite,
+.sp-player em,
+.sp-player i {
+    font-style: italic;
+}
+.sp-player blockquote {
+    margin: 0 3em;
+}
+.sp-player blockquote em,
+.sp-player blockquote i,
+.sp-player blockquote cite {
+    font-style: normal;
+}
+.sp-player pre {
+    font: 11px Monaco, monospace;
+    line-height: 1.5;
+    margin-bottom: 1.5em;
+}
+.sp-player code {
+    font: 11px Monaco, monospace;
+}
+.sp-player abbr,
+.sp-player acronym {
+    border-bottom: 1px dotted #666;
+    cursor: help;
+}
+.sp-player ins {
+    text-decoration: none;
+}
+.sp-player sup,
+.sp-player sub {
+    height: 0;
+    line-height: 1;
+    vertical-align: baseline;
+    position: relative;
+
+}
+.sp-player sup {
+    bottom: 1ex;
+}
+.sp-player sub {
+    top: .5ex;
+}
+
+
+.sp-player ul,
+.sp-player button,
+.sp-player h4,
+.sp-player li{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/*
+
+Adapt the following for use in your Child Themes when using
+different font-sizes and line-heights
+
+body, input, textarea {
+    font: --px Arial,sans-serif;
+    line-height:--;
+}
+p, ul, ol, dd, pre {
+    margin-bottom:--em;
+}
+pre, code {
+	font:--px Monaco, monospace;
+	line-height:--;
+}*/

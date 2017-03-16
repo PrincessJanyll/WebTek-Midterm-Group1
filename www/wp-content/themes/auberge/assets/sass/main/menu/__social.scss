@@ -1,0 +1,107 @@
+/* FILE: main/menu/__social.scss */
+
+//
+// Social links menu
+//
+
+
+
+
+
+.social-links {
+	clear: both;
+	margin-top: 1em;
+	line-height: 1;
+	font-size: nth( map_get( $h_tags_setup, 'h3, .h3' ), 1 ) +em;
+
+	@include responsive( map_get( $breakpoint, 'l' ) ) {
+		clear: none;
+		float: $right; // {{RTL}}
+		margin-top: 0;
+	}
+
+	.site-header & {
+		margin-top: .38em;
+		line-height: inherit;
+
+		li {
+			float: none;
+			display: inline;
+		}
+
+		a {
+			padding: 0 .38em;
+			padding-#{$left}: 0; // {{RTL}}
+		}
+
+		@include responsive( map_get( $breakpoint, 'm' ) ) {
+			margin-top: 0;
+		}
+
+	}
+
+	ul {
+		margin: 0;
+		list-style: none;
+		overflow: hidden;
+	}
+
+	li {
+		float: $left; // {{RTL}}
+	}
+
+	a {
+		padding-#{$left}: .38em; // {{RTL}}
+		color: inherit;
+		opacity: .5;
+		transition: all .4s;
+
+		@include responsive( map_get( $breakpoint, 'xl' ) ) {
+			padding-#{$left}: .62em; // {{RTL}}
+		}
+
+		&:hover {
+			text-decoration: none;
+			opacity: 1;
+		}
+
+		&::before {
+			@extend %genericon;
+			content: '';
+			display: inline-block;
+			vertical-align: top;
+		}
+
+		&.back-to-top {
+			@extend %font_weight_400;
+
+			&::before {
+				content: '\f435';
+				padding: 0 .38em;
+			}
+
+		}
+
+	}
+
+
+
+	@each $social, $params in $social_icons {
+
+		$href: nth( $params, 2 );
+		$char: nth( $params, 1 );
+
+		a[href*="#{$href}"]::before,
+		.#{$social} a::before {
+			content: $char;
+		}
+
+	}
+
+}
+
+
+
+body:not(.sticky-header) .site-header .back-to-top {
+	display: none;
+}

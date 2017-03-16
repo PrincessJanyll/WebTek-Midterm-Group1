@@ -1,0 +1,241 @@
+/////////////////////
+//
+// Layout
+//
+/////////////////////
+
+	//
+	// Breakpoints info:
+	//
+	// 's'     :  448, // =  28em // Starting mobile landscape
+	// 'm'     :  672, // =  42em // Starting tablet portrait
+	// 'l'     :  880, // =  55em // Starting tablet landscape
+	// 'xl'    : 1280, // =  80em // Starting laptop
+	// 'xxl'   : 1600, // = 100em // Starting desktop
+	// 'xxxl'  : 1920, // = 120em // Starting desktop full HD
+	// 'xxxxl' : 2560, // = 160em // Starting desktop WQHD
+	//
+
+	//
+	// Site widths
+	//
+
+		$boxed_width: 1640;   // In px // Default max boxed site width
+		$content_width: 1020; // In px // Default content width
+
+
+
+
+
+/////////////////////
+//
+// Appearance
+//
+/////////////////////
+
+	//
+	// Theme colors
+	// For accessibility test with http://jxnblk.com/colorable/demos/text/
+	//
+	// //* = Doesn't change via Customizer.
+	//
+
+		$colors: (
+
+			// Accent color
+
+				'accent':      #0aac8e,
+				'accent_text': #fff,
+
+			// Body
+
+				'body_background': #eaecee,
+
+			// Site header
+
+				'header':      #1a1c1e,
+				'header_text': #fff,
+
+			// Navigation
+
+				'navigation':        #3a3c3e,
+				'navigation_text':   #fff,
+				'navigation_border': #4a4c4e,
+
+			// Site content
+
+				'content':          #fff,
+				'content_text':     #6a6c6e,
+				'content_headings': #1a1c1e,
+				'content_border':   #eaecee,
+
+			// Sidebars
+
+				'front_widgets':      #1a1c1e,
+				'front_widgets_text': #8a8c8e,
+
+			// Site footer
+
+				'footer':      #1a1c1e,
+				'footer_text': #8a8c8e,
+
+		);
+
+
+
+
+
+/////////////////////
+//
+// Typography
+//
+/////////////////////
+
+	//
+	// Font size
+	//
+
+		$font_size: 16; // Set also in `assets/css-generate/custom-styles.php`
+
+
+
+	//
+	// Font families
+	//
+
+		$font_family: (
+			'body':     "'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+			'headings': "'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+			'logo':     "'Ubuntu', 'Helvetica Neue', Helvetica, Arial, sans-serif",
+		) !default;
+
+
+
+	//
+	// Headings
+	//
+
+		$h_tags_setup: (
+
+			// $selector : (
+			//   $size
+			//   $line_height
+			//   $margin_top
+			//   $margin_bottom
+			// )
+
+			'h1, .h1' : (
+					1.62,
+					1.38,
+					2.3 / 1.62,
+					1.62 / 1.62
+				),
+
+			'h2, .h2' : (
+					1.38,
+					1.38,
+					2.3 / 1.38,
+					1.62 / 1.38
+				),
+
+			'h3, .h3' : (
+					1.24,
+					1.38,
+					2.3 / 1.24,
+					1.62 / 1.24
+				),
+
+			'h4, .h4' : (
+					1.15,
+					1.38,
+					2.3 / 1.15,
+					1.62 / 1.15
+				),
+			'h5, .h5' : (
+					1.15,
+					1.38,
+					2.3 / 1.15,
+					1.62 / 1.15
+				),
+			'h6, .h6' : (
+					1.15,
+					1.38,
+					2.3 / 1.15,
+					1.62 / 1.15
+				)
+
+		) !default;
+
+
+
+
+
+/////////////////////
+//
+// Icons
+//
+/////////////////////
+
+	//
+	// Social links
+	//
+
+		$social_icons: (
+
+			// class: char href
+
+			'website':  '\f475' 'http',
+			'email':    '\f410' 'mailto:',
+			'rss':      '\f413' '/feed/',
+
+			'codepen':  '\f216' 'codepen.io',
+			'digg':     '\f221' 'digg.com',
+			'dribbble': '\f201' 'dribbble.com',
+			'dropbox':  '\f225' 'dropbox.com',
+			'facebook': '\f204' 'facebook.com',
+
+			'flickr':     '\f211' 'flickr.com',
+			'foursquare': '\f226' 'foursquare.com',
+			'github':     '\f200' 'github.com',
+			'instagram':  '\f215' 'instagram.com',
+			'linkedin':   '\f207' 'linkedin.com',
+
+			'pinterest':   '\f209' 'pinterest.com',
+			'google-plus': '\f218' 'plus.google.com',
+			'pocket':      '\f224' 'getpocket.com',
+			'polldaddy':   '\f217' 'polldaddy.com',
+			'reddit':      '\f222' 'reddit.com',
+
+			'skype':       '\f220' 'skype:',
+			'spotify':     '\f515' 'spotify.com',
+			'stumbleupon': '\f223' 'stumbleupon.com',
+			'tumblr':      '\f214' 'tumblr.com',
+			'twitch':      '\f516' 'twitch.tv',
+
+			'twitter':   '\f202' 'twitter.com',
+			'vimeo':     '\f212' 'vimeo.com',
+			'wordpress': '\f205' 'wordpress.',
+			'youtube':   '\f213' 'youtube.com',
+
+		);
+
+
+
+	//
+	// Entry meta
+	//
+
+		$entry_meta_icons: (
+
+			// class: char
+
+			'author':          '\f304',
+			'cat-links':       '\f301',
+			'comments-link a': '\f300',
+			'entry-date':      '\f303',
+			'tags-links':      '\f302',
+
+			'entry-likes a': '\f461',
+			'entry-edit':    '\f411',
+
+		);

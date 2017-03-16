@@ -1,0 +1,133 @@
+.jq-ry-container {
+    position: relative;
+    padding: 0 5px;
+    line-height: 0;
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+}
+.jq-ry-container[readonly="readonly"] {
+    cursor: default;
+}
+.jq-ry-container > .jq-ry-group-wrapper {
+    position: relative;
+    width: 100%;
+}
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group {
+    position: relative;
+    line-height: 0;
+    z-index: 10;
+    white-space: nowrap;
+}
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group > svg {
+    display: inline;
+}
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-normal-group {
+    width: 100%;
+}
+.jq-ry-container > .jq-ry-group-wrapper > .jq-ry-group.jq-ry-rated-group {
+    width: 0;
+    z-index: 11;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+/********************Player***********/
+
+.sp-rater
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(70,70,70,0.9145);
+
+}
+#sp-down
+{
+    background: url(../../images/down.png) no-repeat 50% 50% ,rgb(55,55,55);
+    border-radius: 0 0 50px 50px ;
+    top : 0;
+}
+
+.hide
+{
+    display: none;
+}
+
+
+#sp-down:hover
+{
+    background: url(../../images/down.png) no-repeat 50% 70% ,rgb(55,55,55);
+    box-shadow: 0 0 5px #999;
+}
+.sp-btn-rater
+{
+    position: absolute;
+    top : -25px;
+    left: 11%;
+    box-shadow: 0 0 3px #999;
+    width: 50px;
+    height: 25px;
+    background: url(../../images/up.png) no-repeat 50% 50% ,rgb(55,55,55);
+    border-radius: 50px 50px 0 0 ;
+    cursor: pointer;
+    -webkit-transition: background 0.1s;
+    -o-transition: background 0.1s;
+    transition: background 0.1s;
+}
+
+.sp-btn-rater:hover
+{
+    background: url(../../images/up.png) no-repeat 50% 30% ,rgb(55,55,55);
+    box-shadow: 0 0 5px #999;
+}
+
+.sp-content-rater
+{
+    overflow: auto;
+    width: 100%;
+    color: #FEFEFE;
+    position: absolute;
+    top : 5%;
+    height: 95%;
+}
+.sp-rater-quality
+{
+    margin: 0;
+    text-align: center;
+
+}
+.sp-rate-quality
+{
+    margin: 0 auto;
+}
+.sp-rater-domain
+{
+
+    text-align: center;
+    position: absolute;
+    color: #FEFEFE;
+    width: 100%;
+
+}
+
+
+.div-rate-domain
+{
+
+    width: 48%;
+    display: inline-block;
+
+}
+
+.sp-rater-quality h2,
+.sp-rater-domain h2
+{
+    color : #EFEFEF;
+    padding: 0;
+    margin : 5px;
+}

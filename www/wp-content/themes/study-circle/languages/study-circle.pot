@@ -1,0 +1,306 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Study Circle\n"
+"POT-Creation-Date: 2016-10-09 20:46+0530\n"
+"PO-Revision-Date: 2016-10-09 20:46+0530\n"
+"Last-Translator: \n"
+"Language-Team: Grace Themes <support@gracethemes.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _;__;_e;gettext;gettext_noop;esc_attr;esc_attr__;"
+"esc_attr_e;esc_html;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "Oops! page Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:18 content-single.php:26 content.php:28 image.php:59
+#: template-full-width.php:22
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:23 content-single.php:40 image.php:33 image.php:65
+#: inc/template-tags.php:23
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:33 content.php:40
+msgid "Category:"
+msgstr ""
+
+#: content-single.php:33 content.php:40
+msgid "Category: "
+msgstr ""
+
+#: content.php:21
+msgid "Read More &raquo;"
+msgstr ""
+
+#: content.php:25
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: footer.php:30
+msgid "&copy; 2016"
+msgstr ""
+
+#: footer.php:30
+msgid "All Rights Reserved"
+msgstr ""
+
+#: footer.php:33
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:33
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: functions.php:39
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:40
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:53
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:54
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: functions.php:63
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:64 functions.php:74 functions.php:84 functions.php:94
+msgid "Appears on footer"
+msgstr ""
+
+#: functions.php:73
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:83
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:93
+msgid "Footer Widget 4"
+msgstr ""
+
+#: header.php:29
+msgid "Menu"
+msgstr ""
+
+#: header.php:85 header.php:112 header.php:142
+msgid "Read More"
+msgstr ""
+
+#: image.php:23
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/about-themes.php:11 inc/about-themes.php:22
+msgid "About Theme Info"
+msgstr ""
+
+#: inc/about-themes.php:23
+msgid ""
+"Study Circle is a free Education WordPress theme. It is perfect for school, "
+"college, tution classes, coaching classes, personal, bloging and any small "
+"business. It is user friendly customizer options and Compatible in wordPress "
+"Latest Version. also Compatible with WooCommerce, Nextgen gallery ,Contact "
+"Form 7 and many WordPress popular plugins. "
+msgstr ""
+
+#: inc/about-themes.php:24
+msgid "Theme Features"
+msgstr ""
+
+#: inc/about-themes.php:27
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/about-themes.php:28
+msgid ""
+"The built-in customizer panel quickly change aspects of the design and "
+"display changes live before saving them."
+msgstr ""
+
+#: inc/about-themes.php:32
+msgid "Responsive Ready"
+msgstr ""
+
+#: inc/about-themes.php:33
+msgid ""
+"The themes layout will automatically adjust and fit on any screen resolution "
+"and looks great on any device. Fully optimized for iPhone and iPad."
+msgstr ""
+
+#: inc/about-themes.php:37
+msgid "Cross Browser Compatible"
+msgstr ""
+
+#: inc/about-themes.php:38
+msgid ""
+"Our themes are tested in all mordern web browsers and compatible with the "
+"latest version including Chrome,Firefox, Safari, Opera, IE11 and above."
+msgstr ""
+
+#: inc/about-themes.php:42
+msgid "E-commerce"
+msgstr ""
+
+#: inc/about-themes.php:43
+msgid ""
+"Fully compatible with WooCommerce plugin. Just install the plugin and turn "
+"your site into a full featured online shop and start selling products."
+msgstr ""
+
+#: inc/about-themes.php:50
+msgid "Live Demo"
+msgstr ""
+
+#: inc/about-themes.php:51
+msgid "Purchase Pro"
+msgstr ""
+
+#: inc/about-themes.php:52
+msgid "Documentation"
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:37
+msgid "More color options in PRO Version"
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:47
+msgid ""
+"Featured Image Size Should be same ( 1400x600 ) More slider settings "
+"available in PRO Version."
+msgstr ""
+
+#: inc/customizer.php:59
+msgid "Select page for slide one:"
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Select page for slide two:"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Select page for slide three:"
+msgstr ""
+
+#: inc/customizer.php:96 inc/customizer.php:127 inc/customizer.php:180
+msgid "Uncheck To Enable This Section"
+msgstr ""
+
+#: inc/customizer.php:102
+msgid "Why Choose Us "
+msgstr ""
+
+#: inc/customizer.php:103
+msgid "Add your details here"
+msgstr ""
+
+#: inc/customizer.php:133
+msgid "Homepage Three Boxes Section"
+msgstr ""
+
+#: inc/customizer.php:134
+msgid "Select Pages from the dropdown for homepage three boxes section"
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:36
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:127
+#, php-format
+msgid ""
+"<span class=\"posted-on\">Published %1$s</span><span class=\"byline\"> by "
+"%2$s</span>"
+msgstr ""
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:11
+msgid "Category"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr ""

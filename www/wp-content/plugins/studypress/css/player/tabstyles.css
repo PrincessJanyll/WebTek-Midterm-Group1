@@ -1,0 +1,98 @@
+/* Individual tab styles */
+
+/*****************************/
+/* Bar */
+/*****************************/
+
+.sp-player .tabs-style-bar nav {
+	background: rgba(40,44,42,0.05);
+}
+
+.sp-player .tabs-style-bar nav ul {
+	border: 4px solid transparent;
+}
+
+.sp-player .tabs-style-bar nav ul li a {
+	margin: 0 2px;
+	background-color: #f7f7f7;
+	color: #74777b;
+	transition: background-color 0.2s, color 0.2s;
+}
+
+.sp-player .tabs-style-bar nav ul li a:hover,
+.sp-player .tabs-style-bar nav ul li a:focus {
+	color: #5DB2FF;
+}
+
+.sp-player .tabs-style-bar nav ul li a span {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 500;
+	font-size: 0.6em;
+}
+
+.sp-player .tabs-style-bar nav ul li.tab-current a {
+	background: #5DB2FF;
+	color: #fff;
+}
+
+
+
+
+
+/*****************************/
+/* Top Line */
+/*****************************/
+
+.sp-player .tabs-style-topline {
+	max-width: 1200px;
+}
+
+.sp-player .tabs-style-topline nav li {
+	border: 1px solid rgba(40,44,42,0.1);
+}
+
+.sp-player .tabs-style-topline nav li:not(:last-child) {
+	border-right: none;
+}
+
+.sp-player .tabs-style-topline nav li.tab-current {
+	border-top-color: #5DB2FF;
+	border-bottom: none;
+}
+
+.sp-player .tabs-style-topline nav a {
+	padding: 0.65em 0 0.5em;
+	background: rgba(40,44,42,0.05);
+	color: #74777b;
+	line-height: 1;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.sp-player .tabs-style-topline nav a:hover,
+.sp-player .tabs-style-topline nav a:focus {
+	color: #5DB2FF;
+}
+
+.sp-player .tabs-style-topline nav li.tab-current a {
+	background: none;
+	box-shadow: inset 0 3px 0 #5DB2FF;
+	color: #5DB2FF;
+}
+
+.sp-player .tabs-style-topline .icon::before {
+	display: block;
+	margin: 0;
+}
+
+.sp-player .tabs-style-topline nav a span {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 0.5em;
+}
+
+
+
+

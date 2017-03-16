@@ -1,0 +1,230 @@
+.hide
+{
+    display: none;
+}
+
+
+.sp-player-right-top
+{
+	height: 85%;
+	position: absolute;
+	top: 5%;
+	left:0;
+	right:0;
+
+
+}
+.sp-player-header
+{
+    height: 5%;
+    position: absolute;
+    top: 0;
+    left:0;
+    right:0;
+    box-shadow: 0px 0px 2px #555;
+    vertical-align: middle;
+}
+.sp-player-nbr_questions
+{
+    position: absolute;
+    top :2px ;
+    bottom: 0;
+    left: 5px;
+    margin: auto 0;
+    color : #EFEFEF;
+
+}
+.sp-player-minuteur
+{
+    position: absolute;
+    top :0 ;
+    bottom: 0;
+    right: 5px;
+    margin: auto 0;
+    color : #EFEFEF;
+    font-family: Calibri , sans-serif;
+}
+
+.sp-player-animate-minuteur
+{
+    -webkit-animation: animminuteur 1s infinite; /* Chrome, Safari, Opera */
+    animation: animminuteur 1s infinite;
+}
+
+
+
+.sp-player-right-bottom .btn-begin {
+    color: #EFEFEF;
+    float: right;
+    font-size: 9px;
+    padding: 4px;
+    margin: 2%;
+    background: #009900;
+    border-radius: 3px;
+
+}
+/***QCM****/
+.sp-player:-webkit-full-screen .sp-postit *{
+    font-size: 0.5em;
+}
+.sp-player-player:full-screen .sp-postit *{
+    font-size: 0.5em;
+}
+.sp-player:-ms-full-screen .sp-postit *{
+    font-size: 0.5em;
+}
+.sp-player:-moz-full-screen .sp-postit * {
+    font-size: 0.5em;
+}
+/**************************QCM**************************************/
+
+.sp-player .sp-qcm > p
+{
+    font-size: 1.3em;
+
+}
+
+.sp-player .sp-qcm ul
+{
+    list-style-type: none;
+}
+
+.sp-player .sp-qcm ul > li
+{
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-top: 5px;
+    background: #EEE;
+}
+
+
+
+.sp-player .sp-qcm li.sp-checked
+{
+    background: #Ded777;
+}
+
+.sp-player .sp-result #sp-validate
+{
+position: relative;
+    color: rgba(255,255,255,1);
+    text-decoration: none;
+    background-color: rgba(219,87,5,1);
+    font-weight: 700;
+    font-size: 2em;
+    display: block;
+    padding: 10px 20px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+    margin: 100px auto;
+    text-align: center;
+
+    -webkit-transition: all .1s ease;
+    -moz-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    transition: all .1s ease;
+}
+
+.sp-player .sp-result #sp-validate:active {
+-webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+-moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+position: relative;
+top: 6px;
+}
+
+.sp-player .sp-result .sp-postit
+{
+    position: absolute;
+    padding-top: 10%;
+    top :0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    display: block;
+    height: 70%;
+    text-align: center;
+    vertical-align: middle;
+    background:#fefabc;
+    -moz-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    transform: rotate(7deg);
+
+    box-shadow: 0px 4px 6px #333;
+    -moz-box-shadow: 0px 4px 6px #333;
+    -webkit-box-shadow: 0px 4px 6px #333;
+    font:bold 2em 'Damion', Calibri , sans-serif;
+}
+.sp-player .sp-result .sp-postit strong.green
+{
+    color: #009900;
+    font-size: 2.5em;
+}
+
+.sp-player .sp-result .sp-postit strong.red
+{
+    color: #ac2925;
+    font-size: 2.5em;
+}
+
+
+
+.sp-player .sp-qcm table
+{
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+.sp-player .sp-qcm table td
+{
+    padding: 0;
+    margin: 0;
+    border: none;
+    line-height: 1.34;
+}
+
+.sp-player .sp-qcm table td:first-child
+{
+    padding: 5px 5px 0 0;
+    width: 5%;
+}
+
+.sp-player .sp-qcm table td:nth-child(3)
+{
+    width: 5%;
+}
+.sp-player .sp-player .sp-qcm table td:nth-child(2)
+{
+    width: 90%;
+
+}
+
+
+.sp-player .sp-qcm li label
+{
+    text-align: left;
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+.sp-player .sp-qcm li.false
+{
+    box-shadow:inset 0px 0px 3px #E92836;
+}
+.sp-player .sp-qcm li.true
+{
+    box-shadow:inset 0px 0px 3px #009900;
+}

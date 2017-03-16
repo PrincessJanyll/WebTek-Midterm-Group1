@@ -1,0 +1,196 @@
+/*  Red Theme Styles  */
+/* Non-table  */
+
+.wpinventory_item h1,
+.wpinventory_item h2,
+.wpinventory_item h3,
+.wpinventory_item h4,
+.wpinventory_item h5,
+.wpinventory_item h6 {
+	color: #f4701e;
+}
+
+.wpinventory_filter,
+.wpinventory_pagination {
+	width: 96%;
+	margin: 0 2% 15px;	
+}
+
+.wpinventory_filter span.search,
+.wpinventory_filter span.sort,
+.wpinventory_filter span.categories {
+	display: inline-block;	
+	vertical-align: bottom;
+}
+
+.wpinventory_filter input,
+.wpinventory_filter select {
+	border: 1px solid #eee !important;	
+	color: #333;
+	display: block;
+}
+
+.wpinventory_filter span.sort select,
+.wpinventory_filter span.categories select {
+	background: #fff;
+	border: 0;
+	border-radius: 2px;	
+	padding: 5px;
+}
+
+.wpinventory_filter input[type="submit"],
+.wpinventory_reserve input[type="submit"] {
+	background: #f4701e;
+	color: #fff;
+	border-radius: 4px;
+	text-align: center;
+	display: inline-block;
+	border-top: none !important;
+	border-right: none !important;
+	border-bottom: 3px solid #b75416 !important;	
+	border-left: none !important;
+	padding: 5px;
+	vertical-align: bottom;
+}
+
+.search input[type="text"] {
+	padding: 6px;
+	border-radius: 2px;
+}
+
+.wpinventory_filter input[type="submit"]:hover,
+.wpinventory_reserve input[type="submit"]:hover {
+	background: #b75416;
+}
+
+div.wpinventory_loop {
+	width: 96%;
+	margin: 0 2%;
+	margin-bottom: 15px;
+}
+
+div.wpinventory_loop div.wpinventory_item {
+	padding: 15px 0;
+	border-bottom: 1px solid #f4701e;
+}
+
+.wpinventory_item img {
+	background: #fff;
+	padding: 3px;
+	border: 1px solid #f4701e;
+	max-width: 95%;
+}
+
+div.wpinventory_item div {
+	margin-bottom: 15px;
+}
+
+div.wpinventory_item div span.wpinventory_label {
+	background: #f4701e;
+	color: #fff;
+	font-size: 20px;
+	display: block;
+	padding: 4px 10px;
+	margin-bottom: 15px;
+}
+
+.wpinventory_item a {
+	color: #f4701e;
+}
+
+.wpinventory_pagination a {
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	text-align: center;
+	color: #fff;	
+	background: #f4701e;
+	margin: 0 0 8px 8px;
+	text-decoration: none;
+	line-height: 22px;
+	border-radius: 2px;
+}
+
+.wpinventory_pagination a:hover,
+.wpinventory_pagination a.page_current {
+	background: #b75416;	
+	text-decoration: none;
+}
+/*  End non-table  */
+/*  Table View  */
+
+table.wpinventory_loop {
+	border-top: 1px dotted #000;
+	border-left: 1px dotted #000;
+	margin-bottom: 15px;	
+}
+
+tr.wpinventory_item td,
+table.wpinventory_loop thead th {
+	border-right: 1px dotted #000;
+	border-bottom: 1px dotted #000;	
+	padding: 5px;	
+}
+
+/*  End Table View  */
+
+/*  Reserve Form  */
+
+form.wpinventory_reserve {
+	border-top: 1px solid #f4701e;
+	padding-top: 15px;	
+}
+
+.wpinventory_reserve div {
+	margin-bottom: 15px;
+}
+
+.wpinventory_reserve label {
+	min-width: 20%;	
+	display: inline-block;
+}
+
+.wpinventory_reserve input,
+.wpinventory_reserve textarea {
+	box-shadow: none;
+	border: 1px solid #f4701e;
+	border-radius: 2px;
+	width: 200px;
+}
+
+.wpinventory_reserve input[type="submit"] {
+	width: auto;
+}
+
+/*  End Reserve Form  */
+
+a.wpinventory_back {
+	display: inline-block;
+	margin-bottom: 15px;
+	color: #f4701e;
+}
+
+.wpinventory_item p.image {
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	margin-right: 15px;
+}
+
+@media only screen
+and (max-width: 550px) {
+	
+	span.search,
+	span.sort {
+		display: block;
+		width: 100%;
+		margin-bottom: 20px;
+	}	
+	
+	.wpinventory_reserve input,
+	.wpinventory_reserve textarea {
+		display: block;
+	}
+}
+
+/*  End Red Theme Styles  */

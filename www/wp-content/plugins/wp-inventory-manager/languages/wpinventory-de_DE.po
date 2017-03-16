@@ -1,0 +1,1003 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Inventory\n"
+"POT-Creation-Date: 2015-06-21 12:41-0700\n"
+"PO-Revision-Date: 2015-10-13 16:35+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language: de\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/wpinventory.admin.class.php:70
+msgid "Instructions"
+msgstr "Anweisungen"
+
+#: includes/wpinventory.admin.class.php:72
+msgid "Quick-Start Guide"
+msgstr "Schnellstartanleitung"
+
+#: includes/wpinventory.admin.class.php:73
+msgid "Before you begin setting up your items, you should follow these steps:"
+msgstr "Vor dem Erstellen der Objekte sollten Sie diese Schritte befolgen:"
+
+#: includes/wpinventory.admin.class.php:75
+msgid "Set up your"
+msgstr "Erstelle dein"
+
+#: includes/wpinventory.admin.class.php:75
+#: includes/wpinventory.widgets.class.php:69
+msgid "Inventory Categories"
+msgstr "Inventar Kategorien"
+
+#: includes/wpinventory.admin.class.php:76
+msgid "Configure the"
+msgstr "Konfigurieren Sie"
+
+#: includes/wpinventory.admin.class.php:76
+#: includes/wpinventory.admin.class.php:1131 wpinventory.php:218
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: includes/wpinventory.admin.class.php:77
+msgid "Configure labels"
+msgstr "Etiketten anpassen"
+
+#: includes/wpinventory.admin.class.php:77
+#: includes/wpinventory.admin.class.php:791 wpinventory.php:212
+msgid "Labels"
+msgstr "Etiketten"
+
+#: includes/wpinventory.admin.class.php:78
+msgid "Set Display Options"
+msgstr "Darstellungsoptionen einstellen"
+
+#: includes/wpinventory.admin.class.php:78 wpinventory.php:215
+msgid "Display"
+msgstr "Anzeige"
+
+#: includes/wpinventory.admin.class.php:79
+msgid "Then, you can "
+msgstr "Anschliessen können Sie"
+
+#: includes/wpinventory.admin.class.php:79
+msgid "Add Inventory Items"
+msgstr "Fügen Sie Inventar Artikel hinzu"
+
+#: includes/wpinventory.admin.class.php:80
+msgid "Finally, install the shortcode"
+msgstr "Zum Abschluss installieren Sie den shortcode"
+
+#: includes/wpinventory.admin.class.php:80
+msgid "on any pages you would like to display inventory."
+msgstr "auf jeder Seite auf der das Inventar angezeigt werden soll"
+
+#: includes/wpinventory.admin.class.php:96
+msgid "Inventory Item"
+msgstr "Inventar Artikel"
+
+#: includes/wpinventory.admin.class.php:96
+#: includes/wpinventory.admin.class.php:615
+#: includes/wpinventory.admin.class.php:791
+#: includes/wpinventory.admin.class.php:896
+msgid "saved successfully."
+msgstr "erfolgreich gespeichert."
+
+#: includes/wpinventory.admin.class.php:107
+msgid "Manage Inventory Items"
+msgstr "Verwalten Sie Inventar Artikel"
+
+#: includes/wpinventory.admin.class.php:167
+msgid "Add Inventory Item"
+msgstr "Fügen Sie Inventar Artikel hinzu"
+
+#: includes/wpinventory.admin.class.php:189
+msgid "edit"
+msgstr "bearbeiten"
+
+#: includes/wpinventory.admin.class.php:193
+msgid "delete"
+msgstr "löschen"
+
+#: includes/wpinventory.admin.class.php:214
+msgid "You do not have permission to edit this item."
+msgstr "Sie haben nicht die Berechtigung diesen Artikel zu bearbeiten."
+
+#: includes/wpinventory.admin.class.php:348
+#: includes/wpinventory.label.class.php:137 wpinventory.php:343
+msgid "Images"
+msgstr "Bilder"
+
+#: includes/wpinventory.admin.class.php:357
+#: includes/wpinventory.label.class.php:138 wpinventory.php:344
+msgid "Media"
+msgstr "Medien"
+
+#: includes/wpinventory.admin.class.php:364
+#: includes/wpinventory.admin.class.php:653
+#: includes/wpinventory.admin.class.php:714
+#: includes/wpinventory.label.class.php:152
+#: includes/wpinventory.widgets.class.php:78
+#: includes/wpinventory.widgets.class.php:83
+msgid "Sort Order"
+msgstr "Bestellung sortieren"
+
+#: includes/wpinventory.admin.class.php:375
+#: includes/wpinventory.admin.class.php:723
+#: includes/wpinventory.admin.class.php:829
+#: includes/wpinventory.admin.class.php:954
+#: includes/wpinventory.admin.class.php:1014
+#: includes/wpinventory.admin.class.php:1412
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: includes/wpinventory.admin.class.php:378
+msgid "Save Item"
+msgstr "Artikel speichern"
+
+#: includes/wpinventory.admin.class.php:421
+msgid "Drag and drop images to change sort order"
+msgstr "Halten und ziehen Sie die Bilder um die Reihenfolge zu ändern"
+
+#: includes/wpinventory.admin.class.php:454
+#: includes/wpinventory.label.class.php:136
+msgid "Image"
+msgstr "Bild"
+
+#: includes/wpinventory.admin.class.php:490
+msgid "Add Media"
+msgstr "Medien hinzufügen"
+
+#: includes/wpinventory.admin.class.php:491
+msgid "Drag and drop media to change sort order"
+msgstr "Halten und ziehen Sie die Medien um die Reihenfolge zu ändern"
+
+#: includes/wpinventory.admin.class.php:500 wpinventory.php:346
+msgid "Title"
+msgstr "Titel"
+
+#: includes/wpinventory.admin.class.php:501 wpinventory.php:345
+msgid "URL"
+msgstr "URL"
+
+#: includes/wpinventory.admin.class.php:529
+msgid "You do not have permission to save this item."
+msgstr "Sie haben nicht die Berechtigung diesen Artikel zu speichern."
+
+#: includes/wpinventory.admin.class.php:533
+#: includes/wpinventory.admin.class.php:738
+msgid "Security failure.  Please try again."
+msgstr "Sicherheitsfehler. Versuchen Sie es nocheinmal."
+
+#: includes/wpinventory.admin.class.php:537
+msgid "Either "
+msgstr "Oder"
+
+#: includes/wpinventory.admin.class.php:540
+#: includes/wpinventory.admin.class.php:742
+#: includes/wpinventory.functions.php:637
+msgid "is required."
+msgstr "ist erforderlich"
+
+#: includes/wpinventory.admin.class.php:586
+msgid "Inventory id not set.  Item not deleted."
+msgstr "Inventar Nummer fehlt. Artikel wurde nicht gelöscht."
+
+#: includes/wpinventory.admin.class.php:597
+msgid "Inventory item deleted successfully."
+msgstr "Inventar Artikel erfolgreich gelöscht."
+
+#: includes/wpinventory.admin.class.php:615
+#: includes/wpinventory.admin.class.php:623
+#: includes/wpinventory.admin.class.php:649
+#: includes/wpinventory.label.class.php:153
+#: includes/wpinventory.widgets.class.php:159
+msgid "Category"
+msgstr "Kategorie"
+
+#: includes/wpinventory.admin.class.php:623
+msgid "deleted successfully."
+msgstr "erfolgreich gelöscht."
+
+#: includes/wpinventory.admin.class.php:630
+msgid "Manage Categories"
+msgstr "Kategorieverwaltung"
+
+#: includes/wpinventory.admin.class.php:660
+msgid "Add Category"
+msgstr "Kategorie hinzufügen"
+
+#: includes/wpinventory.admin.class.php:670
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: includes/wpinventory.admin.class.php:672
+msgid "Delete"
+msgstr "Löschen"
+
+#: includes/wpinventory.admin.class.php:697
+#: includes/wpinventory.admin.class.php:742
+#: includes/wpinventory.widgets.class.php:78
+msgid "Category Name"
+msgstr "Kategoriebezeichnung"
+
+#: includes/wpinventory.admin.class.php:703
+msgid "Permalink"
+msgstr "Permalink"
+
+#: includes/wpinventory.admin.class.php:708
+#: includes/wpinventory.label.class.php:139
+msgid "Description"
+msgstr "Bezeichnung"
+
+#: includes/wpinventory.admin.class.php:725
+msgid "Save Category"
+msgstr "Kategorie sichern"
+
+#: includes/wpinventory.admin.class.php:762
+msgid "Category id not set.  Category not deleted."
+msgstr "Kategorie ID wurde nicht gesetzt. Die Kategorie wurde nicht gelöscht."
+
+#: includes/wpinventory.admin.class.php:773
+msgid "Category item deleted successfully."
+msgstr "Kategorie Artikel wurde erfolgreich gelöscht."
+
+#: includes/wpinventory.admin.class.php:797
+msgid "Manage Labels"
+msgstr "Etiketten verwalten"
+
+#: includes/wpinventory.admin.class.php:823
+msgid "Edit Labels"
+msgstr "Etiketten bearbeiten"
+
+#: includes/wpinventory.admin.class.php:831
+msgid "Save Labels"
+msgstr "Etiketten speichern "
+
+#: includes/wpinventory.admin.class.php:833
+#: includes/wpinventory.admin.class.php:1415
+msgid "Reset to Defaults"
+msgstr "Zurücksetzen"
+
+#: includes/wpinventory.admin.class.php:851
+msgid "Use Field"
+msgstr "Eingabefeld benutzen"
+
+#: includes/wpinventory.admin.class.php:853
+msgid "Always On"
+msgstr "Immer an"
+
+#: includes/wpinventory.admin.class.php:859
+msgid "Sort Numerically"
+msgstr "Nach Nummern sortieren"
+
+#: includes/wpinventory.admin.class.php:896
+msgid "Display Settings"
+msgstr "Einstellungen anzeigen"
+
+#: includes/wpinventory.admin.class.php:902
+msgid "Manage Display"
+msgstr "Anzeige verwalten"
+
+#: includes/wpinventory.admin.class.php:955
+#: includes/wpinventory.admin.class.php:1015
+#: includes/wpinventory.admin.class.php:1413
+msgid "Save Settings"
+msgstr "Einstellungen speichern"
+
+#: includes/wpinventory.admin.class.php:957
+msgid ""
+"Drag-and-drop items from the Available Fields list to the desired list to "
+"control what shows on the front-end inventory."
+msgstr ""
+"Halten und ziehen Sie den Artikel von den verfügbaren Felder zu den "
+"gewünschten Feldern um die gewünschte Anzeige im Front- End zu erhalten."
+
+#: includes/wpinventory.admin.class.php:959
+msgid "Available Fields"
+msgstr "Verfügbare Felder"
+
+#: includes/wpinventory.admin.class.php:966
+msgid "Show in Listing"
+msgstr "In der Auflistung anzeigen"
+
+#: includes/wpinventory.admin.class.php:970
+#: includes/wpinventory.admin.class.php:976
+#: includes/wpinventory.admin.class.php:982
+msgid "Add All Fields"
+msgstr "Alle Felder hinzufügen"
+
+#: includes/wpinventory.admin.class.php:972
+msgid "Show on Detail"
+msgstr "Im Detail anzeigen"
+
+#: includes/wpinventory.admin.class.php:978
+msgid "Show in Admin"
+msgstr "Anzeigen für Administrator"
+
+#: includes/wpinventory.admin.class.php:989
+msgid "Show Labels in Listing"
+msgstr "Etiketten in der Auflistung anzeigen"
+
+#: includes/wpinventory.admin.class.php:993
+msgid "Display Listing as Table"
+msgstr "Auflistung als Tabelle anzeigen"
+
+#: includes/wpinventory.admin.class.php:995
+msgid "Table (spreadsheet) view, or each item in a separate box"
+msgstr "Tabellen ( Listenansicht ) oder jeder Artikel in separater Box"
+
+#: includes/wpinventory.admin.class.php:999
+msgid "Image size in Listing"
+msgstr "Bildgröße in Auflistung"
+
+#: includes/wpinventory.admin.class.php:1003
+msgid "Show Labels on Detail"
+msgstr "Anzeige der Etiketten im Detail"
+
+#: includes/wpinventory.admin.class.php:1007
+msgid "Image size in Detail"
+msgstr "Bildgröße im Detail"
+
+#: includes/wpinventory.admin.class.php:1042
+msgid "You may not display images or media in the admin listing."
+msgstr ""
+"Die Bilder oder Medien können in der Administratorenliste eventuell nicht "
+"angezeigt werden"
+
+#: includes/wpinventory.admin.class.php:1131
+msgid "saved successfully, and rewrite rules flushed."
+msgstr "Erfolgreich gespeichert"
+
+#: includes/wpinventory.admin.class.php:1137
+msgid "Manage Settings"
+msgstr "Einstellungen bearbeiten"
+
+#: includes/wpinventory.admin.class.php:1148
+msgid " - None / No CSS -"
+msgstr "- Kein / Kein CSS - "
+
+#: includes/wpinventory.admin.class.php:1161
+msgid "Administrator"
+msgstr "Administrator"
+
+#: includes/wpinventory.admin.class.php:1162
+msgid "Editor"
+msgstr "Bearbeiter"
+
+#: includes/wpinventory.admin.class.php:1163
+msgid "Author"
+msgstr "Autor"
+
+#: includes/wpinventory.admin.class.php:1164
+msgid "Contributor"
+msgstr "Mitwirkender"
+
+#: includes/wpinventory.admin.class.php:1165
+msgid "Subscriber"
+msgstr "Empfänger"
+
+#: includes/wpinventory.admin.class.php:1171
+msgid "Any items"
+msgstr "Jeden Artikel"
+
+#: includes/wpinventory.admin.class.php:1172
+msgid "Only their own items"
+msgstr "Nur die eigenen Artikel"
+
+#: includes/wpinventory.admin.class.php:1180
+msgid "Do not display"
+msgstr "Nicht anzeigen"
+
+#: includes/wpinventory.admin.class.php:1195
+msgid "Before"
+msgstr "Vorher"
+
+#: includes/wpinventory.admin.class.php:1196
+msgid "After"
+msgstr "Nachher"
+
+#: includes/wpinventory.admin.class.php:1211
+msgid "SEO URLs will not work with your current "
+msgstr "SEO URLs werden nicht mit der derzeitigen funktionieren"
+
+#: includes/wpinventory.admin.class.php:1211
+msgid "Permalink Structure"
+msgstr "Permalink Struktur"
+
+#: includes/wpinventory.admin.class.php:1220
+#: includes/wpinventory.admin.class.php:1226
+msgid "License key is invalid or expired."
+msgstr "Lizenzsschlüssel ist ungültig oder ausgelaufen"
+
+#: includes/wpinventory.admin.class.php:1221
+#: includes/wpinventory.admin.class.php:1227
+#, php-format
+msgid "License key is valid until %s"
+msgstr "LIzensschlüssel ist gültig bis %s"
+
+#: includes/wpinventory.admin.class.php:1233
+msgid "Inventory Manager License Keys"
+msgstr "Inventar Bearbeiter Lizenzschlüssel "
+
+#: includes/wpinventory.admin.class.php:1236
+msgid "Inventory Manager License Key"
+msgstr "Inventar Bearbeiter Lizenzschlüssel "
+
+#: includes/wpinventory.admin.class.php:1245
+#, php-format
+msgid "%s License Key"
+msgstr "%s Lizenzschlüssel"
+
+#: includes/wpinventory.admin.class.php:1251
+msgid "Permission Settings"
+msgstr "Befugniseinstellungen"
+
+#: includes/wpinventory.admin.class.php:1254
+msgid "Minimum Role to Add/Edit Items"
+msgstr "Grundbefugniß zum Bearbeiten oder Hinzufügen von Artikeln"
+
+#: includes/wpinventory.admin.class.php:1258
+msgid "Allow Users to Edit"
+msgstr "Benutzer die Bearbeitung erlauben"
+
+#: includes/wpinventory.admin.class.php:1262
+msgid "General Settings"
+msgstr "Grundeinstellugen"
+
+#: includes/wpinventory.admin.class.php:1265
+msgid "Use SEO URLs"
+msgstr "Benutze SEO URLs"
+
+#: includes/wpinventory.admin.class.php:1272
+msgid "Theme"
+msgstr "Vorlagenmaske"
+
+#: includes/wpinventory.admin.class.php:1279
+msgid "SEO Endpoint"
+msgstr "SEO Endpunkt"
+
+#: includes/wpinventory.admin.class.php:1284
+msgid "Use Media Fields"
+msgstr "Benutze Medien Felder"
+
+#: includes/wpinventory.admin.class.php:1286
+msgid "Setting this to no still allows images, just not additional media"
+msgstr "Diese Einstellungen erlaubt Bilder aber keine zusätzlichen Medien"
+
+#: includes/wpinventory.admin.class.php:1290
+msgid "Items Per Page"
+msgstr "Artikel pro Seite"
+
+#: includes/wpinventory.admin.class.php:1295
+msgid "Date Format Settings"
+msgstr "Datumsformat Einstellungen"
+
+#: includes/wpinventory.admin.class.php:1298
+msgid "Date Format"
+msgstr "Datumsformat"
+
+#: includes/wpinventory.admin.class.php:1302
+msgid "Time Format"
+msgstr "Zeitformat"
+
+#: includes/wpinventory.admin.class.php:1306
+msgid "Currency Format Settings"
+msgstr "Einstellungen Währungsformat"
+
+#: includes/wpinventory.admin.class.php:1309
+msgid "Currency Symbol"
+msgstr "Währungssymbol"
+
+#: includes/wpinventory.admin.class.php:1314
+msgid "Currency Symbol Location"
+msgstr "örtliches Währungssymbol"
+
+#: includes/wpinventory.admin.class.php:1318
+msgid "Currency Thousands Separator"
+msgstr "Trennzeichen Währungstausender"
+
+#: includes/wpinventory.admin.class.php:1323
+msgid "Currency Decimal Separator"
+msgstr "Trennzeichen Dezimalstellen"
+
+#: includes/wpinventory.admin.class.php:1328
+msgid "Currency Precision (decimal places)"
+msgstr "Exakte Währung ( Dezimalstellen )"
+
+#: includes/wpinventory.admin.class.php:1332
+msgid "Currency Example (with settings):"
+msgstr "Währungsbeispiele ( mit Einstellungen )"
+
+#: includes/wpinventory.admin.class.php:1336
+msgid "Reserve Settings"
+msgstr "Einstellungen reservieren"
+
+#: includes/wpinventory.admin.class.php:1339
+msgid "Allow Visitors to Reserve Items"
+msgstr "Erlaube Besuchern Artikel zu reservieren"
+
+#: includes/wpinventory.admin.class.php:1343
+msgid "Ask for Qty When Reserving"
+msgstr "Anzahl anfragen bei Reservierung"
+
+#: includes/wpinventory.admin.class.php:1347
+msgid "Decrease Qty in System on Reserve"
+msgstr "Bei Reservierung Lagerbestand im System verringern "
+
+#: includes/wpinventory.admin.class.php:1351
+msgid "Send-to Email When Reserve"
+msgstr "Emailbenachrichtigung bei Reservierung"
+
+#: includes/wpinventory.admin.class.php:1356
+msgid "Require Name"
+msgstr "Name ist notwendig"
+
+#: includes/wpinventory.admin.class.php:1360
+msgid "Require Address"
+msgstr "Adresse ist notwendig"
+
+#: includes/wpinventory.admin.class.php:1364
+msgid "Require City"
+msgstr "Stadt ist notwendig"
+
+#: includes/wpinventory.admin.class.php:1368
+msgid "Require State"
+msgstr "Bundesland ist notwendig"
+
+#: includes/wpinventory.admin.class.php:1372
+msgid "Require Zip"
+msgstr "Postleitzahl ist notwendig"
+
+#: includes/wpinventory.admin.class.php:1376
+msgid "Require Phone"
+msgstr "Telefon ist notwendig"
+
+#: includes/wpinventory.admin.class.php:1380
+msgid "Require Email"
+msgstr "Email ist notwendig"
+
+#: includes/wpinventory.admin.class.php:1384
+msgid "Require Message"
+msgstr "Nachricht ist notwendig"
+
+#: includes/wpinventory.admin.class.php:1392
+msgid "Image Tools"
+msgstr "Blidbearbeitungs- Werkzeug"
+
+#: includes/wpinventory.admin.class.php:1395
+msgid "Placeholder Image"
+msgstr "Platzhalterbild"
+
+#: includes/wpinventory.admin.class.php:1405
+msgid "Rebuild Image Thumbnails"
+msgstr "Erstelle Bilder- Thumbnails neu"
+
+#: includes/wpinventory.admin.class.php:1530
+msgid "Actions"
+msgstr "Aktionen"
+
+#: includes/wpinventory.admin.class.php:1572
+msgid "WP Inventory Add Ons"
+msgstr "WP Inventar Erweiterungen"
+
+#: includes/wpinventory.admin.class.php:1579
+msgid "Installed"
+msgstr "Installiert"
+
+#: includes/wpinventory.admin.class.php:1589
+msgid "Learn More"
+msgstr "Erfahre mehr"
+
+#: includes/wpinventory.admin.class.php:1592
+msgid "Download"
+msgstr "Download"
+
+#: includes/wpinventory.admin.class.php:1598
+msgid "No add ons found.  Please check back soon!"
+msgstr "Keine Erweiterungen gefunden. Versuchen Sie es später nochmal!"
+
+#: includes/wpinventory.admin.class.php:1608
+msgid "Version"
+msgstr "Version"
+
+#: includes/wpinventory.api.class.php:132
+msgid "When attempting to activate license, could not reach license site."
+msgstr ""
+"Bei dem Versuch die Lizenz zu aktivieren, konnte keine Antwort von der "
+"Lizenzierung- Seite empfangen werden."
+
+#: includes/wpinventory.api.class.php:139
+msgid "When attempting to activate license, no response was received."
+msgstr ""
+"Bei dem Versuch die Lizenz zu aktivieren wurde keine Antwort erhalten."
+
+#: includes/wpinventory.api.class.php:142
+#, php-format
+msgid ""
+"When attempting to activate license, a response code of %d was returned."
+msgstr ""
+"Bei dem Versuch die Lizenz zu aktivieren, wurde der eingegebene Schlüssel "
+"%d zurückgegeben."
+
+#: includes/wpinventory.api.class.php:149
+#, php-format
+msgid "The license entered for %s is invalid."
+msgstr "Die Lizenz für %s ist ungültig."
+
+#: includes/wpinventory.api.class.php:157
+#, php-format
+msgid "Congratulations! The %s license entered is valid."
+msgstr "Glückwunsch! Die %s Lizenz ist gültig."
+
+#: includes/wpinventory.api.class.php:159
+#, php-format
+msgid "(Click to refresh if %s is not visible.)"
+msgstr "(Klicken Sie zum aktualisieren %s ist nicht sichtbar.)"
+
+#: includes/wpinventory.category.class.php:150
+msgid "Category has "
+msgstr "Kategorie hat"
+
+#: includes/wpinventory.category.class.php:162
+#: includes/wpinventory.status.class.php:87
+msgid "Select Category"
+msgstr "Kategorieauswahl"
+
+#: includes/wpinventory.class.php:134
+msgid "requires a licensed copy of Inventory Manager."
+msgstr "benötigt eine lizensierte Version des Inventar Managers."
+
+#: includes/wpinventory.class.php:142
+msgid "requires inventory version"
+msgstr "Inventar"
+
+#: includes/wpinventory.class.php:142
+msgid "or higher, so it is not activated."
+msgstr "oder höher, in diesem Fall ist es nicht aktiviert."
+
+#: includes/wpinventory.class.php:550
+msgid "No"
+msgstr "Nein"
+
+#: includes/wpinventory.class.php:551
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/wpinventory.class.php:559
+msgid "Do Not Display"
+msgstr "Nicht anzeigen"
+
+#: includes/wpinventory.class.php:560
+msgid "Display (not required)"
+msgstr "Anzeigen ( nicht notwendig )"
+
+#: includes/wpinventory.class.php:561
+msgid "Required"
+msgstr "Notwendig"
+
+#: includes/wpinventory.class.php:685
+#, php-format
+msgid "%s license is invalid or not found."
+msgstr "%s Lizenz ist ungültig oder wurde nicht gefunden."
+
+#: includes/wpinventory.class.php:686 wpinventory.php:168
+msgid "Enter your license key now."
+msgstr "Geben Sie bitte Ihren Lizenzschlüssel ein"
+
+#: includes/wpinventory.functions.php:572
+msgid "Reserve This Item"
+msgstr "Reserviere diesen Artikel"
+
+#: includes/wpinventory.functions.php:574
+#: includes/wpinventory.label.class.php:135
+msgid "Name"
+msgstr "Name"
+
+#: includes/wpinventory.functions.php:577
+msgid "Address"
+msgstr "Adresse"
+
+#: includes/wpinventory.functions.php:580
+msgid "City"
+msgstr "Stadt"
+
+#: includes/wpinventory.functions.php:583
+msgid "State"
+msgstr "Bundesland"
+
+#: includes/wpinventory.functions.php:586
+msgid "Postal Code"
+msgstr "Postleitzahl"
+
+#: includes/wpinventory.functions.php:589
+msgid "Phone"
+msgstr "Telefon"
+
+#: includes/wpinventory.functions.php:592
+msgid "Email"
+msgstr "Email"
+
+#: includes/wpinventory.functions.php:595
+msgid "Quantity to Reserve"
+msgstr "Anzahl für Reservierung"
+
+#: includes/wpinventory.functions.php:598
+msgid "Message"
+msgstr "Nachricht"
+
+#: includes/wpinventory.functions.php:650
+msgid "There are not enough of this item to reserve"
+msgstr "Es sind nicht genügend Artikel für eine Reservierung vorhanden"
+
+#: includes/wpinventory.functions.php:660
+msgid "Thank you.  Your reservation has been submitted."
+msgstr "Vielen Dank. Ihre Reservierung wurde ausgeführt."
+
+#: includes/wpinventory.functions.php:723
+msgid "An item has been reserved from"
+msgstr "Ein Artikel wurde für Sie reserviert"
+
+#: includes/wpinventory.functions.php:734
+msgid "Item Details"
+msgstr "Artikeldetails"
+
+#: includes/wpinventory.functions.php:751
+msgid "Reservation Details"
+msgstr "Reservierungsdetails"
+
+#: includes/wpinventory.functions.php:785
+msgid "There was an issue sending your e-mail.  Please try again later."
+msgstr ""
+"Es gab Probleme beim Emailversand- Bitte versuchen Sie es später nochmal."
+
+#: includes/wpinventory.functions.php:822
+msgid "Sort By"
+msgstr "Sortiert nach"
+
+#: includes/wpinventory.functions.php:824
+msgid "Search"
+msgstr "Suchen"
+
+#: includes/wpinventory.functions.php:825
+msgid "Search For"
+msgstr "Suchen nach"
+
+#: includes/wpinventory.functions.php:875
+msgid "Sort By..."
+msgstr "Sortiert nach…"
+
+#: includes/wpinventory.functions.php:891
+#: includes/wpinventory.widgets.class.php:41
+msgid "Choose Category..."
+msgstr "Wählen Sie eine Kategorie aus…"
+
+#: includes/wpinventory.functions.php:905
+msgid "Go"
+msgstr "Weiter"
+
+#: includes/wpinventory.functions.php:931
+msgid "Showing [start] - [end] of [count] items"
+msgstr "Anzeige [start] - [end] der [count] Artikel"
+
+#: includes/wpinventory.functions.php:952
+msgid "&lt;&lt;"
+msgstr "&lt;&lt;"
+
+#: includes/wpinventory.functions.php:954
+msgid "&lt;"
+msgstr "&lt;"
+
+#: includes/wpinventory.functions.php:975
+msgid "&gt;"
+msgstr "&gt;"
+
+#: includes/wpinventory.functions.php:977
+msgid "&gt;&gt;"
+msgstr "&gt;&gt;"
+
+#: includes/wpinventory.item.class.php:491
+msgid "Inventory item deleted, but the images could not be deleted."
+msgstr ""
+"Inventarartikel ist gelöscht, das Bild konnte aber nicht gelöscht werden."
+
+#: includes/wpinventory.item.class.php:495
+msgid "Inventory item deleted, but the media could not be deleted."
+msgstr ""
+"Inventarartikel ist gelöscht, aber das Medium konnte nicht gelöscht werden."
+
+#: includes/wpinventory.item.class.php:499
+msgid "The inventory item is already deleted."
+msgstr "Der Inventarartikel ist bereits gelöscht."
+
+#: includes/wpinventory.item.class.php:501
+msgid "Inventory item could not be deleted."
+msgstr "Inventarartikel konnte nicht gelöscht werden."
+
+#: includes/wpinventory.label.class.php:134
+msgid "Number"
+msgstr "Nummer"
+
+#: includes/wpinventory.label.class.php:140
+msgid "Size"
+msgstr "Größe"
+
+#: includes/wpinventory.label.class.php:141
+msgid "Manufacturer"
+msgstr "Hersteller"
+
+#: includes/wpinventory.label.class.php:142
+msgid "Make"
+msgstr "Herstellen"
+
+#: includes/wpinventory.label.class.php:143
+msgid "Model"
+msgstr "Model"
+
+#: includes/wpinventory.label.class.php:144
+msgid "Year"
+msgstr "Jahr"
+
+#: includes/wpinventory.label.class.php:145
+msgid "Serial #"
+msgstr "Serial #"
+
+#: includes/wpinventory.label.class.php:146
+msgid "FOB"
+msgstr "FOB"
+
+#: includes/wpinventory.label.class.php:147
+msgid "Quantity"
+msgstr "Anzahl"
+
+#: includes/wpinventory.label.class.php:148
+msgid "Quantity Reserved"
+msgstr "Anzahl reserviert"
+
+#: includes/wpinventory.label.class.php:149
+msgid "Price"
+msgstr "Preis"
+
+#: includes/wpinventory.label.class.php:150
+msgid "Status"
+msgstr "Status"
+
+#: includes/wpinventory.label.class.php:151
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/wpinventory.label.class.php:154
+msgid "User"
+msgstr "Benutzer"
+
+#: includes/wpinventory.label.class.php:155
+msgid "Date Added"
+msgstr "Datum hinzugefügt"
+
+#: includes/wpinventory.label.class.php:156
+msgid "Date Updated"
+msgstr "Datum aktualisiert"
+
+#: includes/wpinventory.updater.php:159
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Das ist eine neue Version von %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+
+#: includes/wpinventory.updater.php:166
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Es ist eine neue Version von  %1$s verfügbar. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">Update jetzt</a>."
+
+#: includes/wpinventory.updater.php:306
+msgid "You do not have permission to install plugin updates"
+msgstr "Sie haben nicht die Berechtigung dieses Plugin zu installieren."
+
+#: includes/wpinventory.widgets.class.php:77
+msgid "List"
+msgstr "Liste"
+
+#: includes/wpinventory.widgets.class.php:77
+msgid "Dropdown"
+msgstr "Auswahlmenü"
+
+#: includes/wpinventory.widgets.class.php:80
+#: includes/wpinventory.widgets.class.php:156
+msgid "Widget Title"
+msgstr "Steuerelement Titel"
+
+#: includes/wpinventory.widgets.class.php:81
+#: includes/wpinventory.widgets.class.php:158
+msgid "Links to Page"
+msgstr "Verknüpfung zur Seite"
+
+#: includes/wpinventory.widgets.class.php:81
+#: includes/wpinventory.widgets.class.php:158
+msgid "Select..."
+msgstr "Auswählen…"
+
+#: includes/wpinventory.widgets.class.php:82
+msgid "Display As"
+msgstr "Zeige als"
+
+#: includes/wpinventory.widgets.class.php:139
+msgid "Latest Items"
+msgstr "Neueste Artikel"
+
+#: includes/wpinventory.widgets.class.php:149
+msgid "Show All"
+msgstr "Zeige alle"
+
+#: includes/wpinventory.widgets.class.php:157
+msgid "Number of Items"
+msgstr "Anzahl der Artikel"
+
+#: views/loop-all-table.php:50 views/loop-all.php:43
+#: views/loop-category-table.php:52 views/loop-category.php:40
+#: views/widget-latest-items-loop.php:23
+msgid "No Inventory Items"
+msgstr "Keine Inventar Artikel"
+
+#: wpinventory.php:167
+msgid ""
+"WP Inventory Manager is unlicensed.  Get automatic updates and support by "
+"getting a license."
+msgstr ""
+"WP Inventory ist nicht lizensiert. Mit einer Lizenz erhalten Sie Updates "
+"und Hilfe."
+
+#: wpinventory.php:188
+msgid "WP Inventory"
+msgstr "WP Inventory"
+
+#: wpinventory.php:206
+msgid "Inventory Items"
+msgstr "Inventar Artikel"
+
+#: wpinventory.php:209
+msgid "Categories"
+msgstr "Kategorien"
+
+#: wpinventory.php:221
+msgid "Add Ons"
+msgstr "Erweiterungen"
+
+#: wpinventory.php:347
+msgid "Are you sure you want to delete"
+msgstr "Sind Sie sicher das Sie löschen wollen?"
+
+#: wpinventory.php:348
+msgid "this item"
+msgstr "der Artikel"
+
+#: wpinventory.php:349
+msgid "the item"
+msgstr "der Artikel"
+
+#: wpinventory.php:350
+msgid "?"
+msgstr "?"
+
+#: wpinventory.php:368
+msgid "WP Inventory styles not loaded due to settings in dashboard."
+msgstr ""
+"Wp Inventory Styles konnten aufgrund von Einstellungen im Startmenü nicht "
+"geladen werden."

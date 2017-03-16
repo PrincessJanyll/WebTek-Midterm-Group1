@@ -1,0 +1,153 @@
+v2.1.0  - Added upsell link with trt-customizer-pro class
+
+v2.0.9  - Fixed prefixing of scripts
+
+v2.0.8  - Added prefixing to scripts and css
+        - Added jquery dependency to all dependent scripts
+        - Moved conditional scripts to wp_script_add_data model
+        - Wrapped update migration code in function
+
+v2.0.7  - Fixed variable issue in meta_box
+
+v2.0.6  - Fixed subpage banner image issue
+        - Fixed sanitize function in options
+
+v2.0.5  - Added - use featured image in subpage banner
+        - Made social buttons open in new tab
+        - Changed from redux to kirki
+        - All text now can be translated
+        - Sanitized and escaped all input/output
+        - Added readme in /lang/
+        - updated licence and copyright
+        - Added support for title-tag 
+        - Updated tags
+        - Changed text-domain
+        - Moved all assets to /assets/*
+        - Moved supporting libs and classes to /inc/
+        
+v2.0.4  - Added WooCommerce support
+        - Added scrollto on contact form submit
+
+v2.0.3  - Fixed pagination layout issue from frontpage
+        - Fixed banner padding issue with small screens with unique aspect ratios
+
+v2.0.2  - Removed unused css file
+
+v2.0.1  - Fixed menu style issue at mobile
+        - Fixed responsive styles
+        - Removed featured widget
+        - Fixed text logo logic
+
+v2.0.0  - MAJOR UPDATE - Not compatible with 1.x
+        - Migrated entire theme options system to customizer using redux framework
+        - Added one-page features to frontpage
+        - Added scroll feature to menu
+        - Updated all images to CC0 compatability
+        - Updated blog archive layout to provide better experiance at responsive breakpoints
+        - Updated menu design to provide better experiance at responsive breakpoints
+
+v1.3.5  - Added license info about screenshot.png
+
+v1.3.4  - Added smaller logo in options panel
+        - Added details to the readme.txt
+
+v1.3.3  - Fixed missing tranlsation functions in comments form
+        - Updated translation files
+        - Added margin on align* images classes
+        - Updated options panel
+
+v1.3.2  - Remove check for register_nav_menu
+
+v1.3.1  - Move global content_width outside of conditional
+
+v1.3.0  - Fixed missing global var $content_width and moved to after_setup_theme
+
+v1.2.9	- Fixed meta title function to fix blank frontpage title issue and double feed title
+
+v1.2.8	- Added FontAwesome fonts
+
+v1.2.7	- Fixed wrong theme listed in licence
+
+v1.2.6	- Fixed textarea filter
+
+v1.2.5	- Fixed incorrect content_width variable 
+
+v1.2.4	- Fixed errors on 404
+	- Fixed errors on no search results
+
+v1.2.3	- Prefixed variables to avoid conflicts with plugins
+
+v1.2.2	- Trimmed all trailing whitespaces
+	- Added pluggable condition to many functions for better child themes
+	- Fixed CSS layout issue in options panel
+
+v1.2.1	- Set all EOL to CRLF
+
+v1.2.0	- Updated nimbus_modify_search_form to use get_template_directory_uri for search icon
+	- Updated reset confirm message
+	- Added clear below featured post - featured image
+
+v1.1.9	- Added a custom rss feed url option
+
+v1.1.8	- Remove unused scripts and styles from head
+	- Update supportinfo url
+
+v1.1.7	- Remove custom-header and editor-style tags as they don't apply
+
+v1.1.6	- Fixed errors reported from new sanitize functions
+
+v1.1.5	- Updated sanitize functions in theme options panel
+
+v1.1.4	- Removed duplicate banner element mistakenly added in last update
+
+v1.1.3	- Fixed broken responsive css description
+	- Removed duplicate text logo on mobile sizes
+	- Fixed display of full witdth images on mobile viewports
+	- Fixed float issue a with clear below the_content
+
+v1.1.2	- New Theme URI 
+
+v1.1.1	- Update Constants and add sales url related
+	- Update sales urls on options panel
+	- Make font-styles translatable
+	- Update PO/MO files
+
+v1.1.0	- Use get_option('date_format') per discussion: "[theme-reviewers] Hard coding date format"
+	- Migrated to new layout tags
+
+v1.0.9	- Updated User Guide 
+	- Remove empty array items from options aray
+	- Remove info array items from options array because feature is being removed
+	- Remove info and video features from options form
+
+v1.0.8	- Added unique keys to options array
+	- Fixed options form display to pull tab panes automatically 
+	- Simplified options save/filter functions 
+	- Removed function to save defaults to DB
+	- Fixed options display helper to pull from array not DB
+	- Fixed display issue with mail icon on sidebar
+	- Added missing support for <!--more--> on featured post template partial
+	- Fixed incorrect image dimension listed on options panel
+
+v1.0.7	- Add option to hide alternate blog on frontpage 
+
+v1.0.6 	- Fixed menu layout issues when is_admin_bar_showing = true 
+
+v1.0.5	- Fixed frontpage secondary blog loops to allow for setting post count to "0"
+
+v1.0.4	- Added sitemap template and associated partial
+
+v1.0.3	- Added PO/MO files for translation
+
+v1.0.2 	- Removed funtion to create menu
+	- Added functional fallback_cb to menu
+	- Moved title conditions to wp_title filter
+	- Removed 'menu' variable from wp_nav_menu
+	- Moved admin scripts to theme options page only
+	- Replaced hard-coded inputs with submit_button() on theme option form
+
+v1.0.1	- Fixed Refrence error in comments.php
+	- Fixed declaration errors by removing none essential class extention
+	- Pushed conditional scripts to wp_head
+
+v1.0.0 	- Initial Launch 

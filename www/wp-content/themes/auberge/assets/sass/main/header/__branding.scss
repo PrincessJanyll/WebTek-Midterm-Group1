@@ -1,0 +1,77 @@
+/* FILE: main/header/__branding.scss */
+
+//
+// Branding: site title, logo image, site description (tagline)
+//
+
+
+
+
+
+.site-branding {
+	margin: 0;
+	color: inherit;
+
+	@include responsive( map_get( $breakpoint, 'm' ) ) {
+		float: $left; // {{RTL}}
+		display: inline-block;
+	}
+
+	a {
+
+		&,
+		&:hover,
+		&:active {
+			text-decoration: none;
+			color: inherit;
+		}
+
+		img:hover {
+			box-shadow: none;
+		}
+
+	}
+
+	img {
+		display: inline-block;
+		width: auto;
+		max-height: 4.62rem;
+		vertical-align: middle;
+	}
+
+}
+
+
+
+.site-title {
+	@extend %font_weight_300;
+	display: inline-block;
+	position: relative;
+	top: -.09em;
+	margin: 0;
+	line-height: 1;
+	letter-spacing: .19em;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 1.9rem;
+	color: inherit;
+	vertical-align: middle;
+}
+
+	.site-title,
+	.logo-font {
+		text-rendering: auto;
+	}
+
+
+
+.site-description {
+	@extend %font_size_1rem;
+	@extend %screen_reader_hiding;
+}
+
+
+
+.type-img a {
+	line-height: 5rem;
+}

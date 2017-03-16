@@ -1,0 +1,565 @@
+/*@TODO Enlever les commentaires d'import*/
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Damion);
+
+
+.sp-player a {
+    color: #5DB2FF;
+    text-decoration: none;
+    outline: none;
+}
+
+.sp-player
+{
+    font-family: 'Raleway', Calibri , sans-serif;
+    font-size: 12px;
+    margin: 10px auto;
+    position: relative;
+    background: url(../../images/bg.png) repeat top left; /* Old browsers */
+    box-shadow: 0 0 1px #555;
+
+}
+
+.sp-player-left
+{
+    width : 30%;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    top:0;
+    box-shadow: inset 0 0 3px #555;
+
+}
+.sp-player-right
+{
+    width : 70%;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    top:0;
+}
+
+.sp-player-right-bottom
+{
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+    box-shadow:inset  0px 0px 2px #555;
+}
+.sp-player .slides,
+.sp-player .slide {
+
+    position: absolute;
+    background: #FFFFFF;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+
+}
+.sp-player .owl-item {
+    overflow: hidden;
+    width:100%;
+    height: 100%;
+
+}
+.sp-player .owl-item > div {
+    overflow: hidden;
+    width: 98%;
+    height: 98%;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    padding: 1%;
+}
+
+.sp-player .owl-item > div ul{
+    margin-left: 4%;
+}
+
+
+/*************************
+* La partie gauche
+*
+*/
+
+.sp-player-profil{
+    width: 100%;
+    height: 15%;
+    padding: 2%;
+    position: relative;
+    color : #FFF;
+    text-decoration: none;
+}
+
+.sp-player-profil a.sp-name-profil{
+    color : #FFF;
+    font-size: 0.9em;
+    font-family:  Calibri , sans-serif;
+    text-decoration: none;
+    position : absolute;
+    top :11%;
+    left: 18%;
+
+}
+.sp-player-profil h4{
+    font: bold 1.1em 'Raleway' , calibri, sans-serif;
+    color: #EFEFEF;
+    position : relative;
+
+}
+.sp-player-tabs{
+    height:81%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    /*background: rgba(80,80,80,0.5);*/
+
+}
+
+
+.sp-player .content{
+    height: 90%;
+    overflow: auto;
+}
+
+
+
+.sp-player .hr{
+    width: 100%;
+    height:1px;
+    margin :0.4em auto;
+    background: #555;
+    box-shadow:inset  0 0 2px #555;
+}
+.sp-player .buttons-control{
+    position: absolute;
+    right: 0;
+    height: 100%;
+    width:20%;
+}
+
+.sp-player .buttons-control-left{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width:20%;
+}
+.sp-player-right-bottom .btn-next,
+.sp-player-right-bottom .btn-prev,
+.sp-player .btn-share,
+.sp-player .full-screen{
+    text-indent: -9999px;
+    outline: none;
+    width : 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 15% 8%;
+}
+.sp-player-right-bottom .btn-next,
+.sp-player-right-bottom .btn-prev{
+    float: right;
+}
+.sp-player .btn-share,
+.sp-player .full-screen{
+    float: left;
+}
+.sp-player-right-bottom .btn-next,
+.sp-player-right-bottom .btn-next:hover,
+.sp-player-right-bottom .btn-next:focus{
+    background: url(../../images/next.png) no-repeat;
+}
+.sp-player-right-bottom .btn-prev,
+.sp-player-right-bottom .btn-prev:hover,
+.sp-player-right-bottom .btn-prev:focus{
+    background: url(../../images/prev.png) no-repeat;
+}
+.sp-player .btn-next:hover,
+.sp-player .btn-prev:hover,
+.sp-player .btn-share:hover,
+.sp-player .full-screen:hover{
+    opacity: 0.84;
+}
+.sp-player .btn-next:active,
+.sp-player .btn-prev:active,
+.sp-player .btn-share:active,
+.sp-player .full-screen:active{
+    opacity: 0.2;
+}
+.sp-player .full-screen,
+.sp-player .full-screen:hover,
+.sp-player .full-screen:focus{
+    background: url(../../images/fullscreen_.png) no-repeat top left;
+}
+
+.sp-player .btn-share,
+.sp-player .btn-share:hover,
+.sp-player .btn-share:focus{
+    background: url(../../images/share.png) no-repeat top left;
+}
+
+
+/**************QCM*******************/
+.loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    z-index: 1060;
+    background: url(../../images/loading.gif) no-repeat 50% 50%,#FFF;
+}
+
+.hide
+{
+    display: none;
+}
+
+
+
+
+
+
+/****fullScreen***/
+.sp-player:-webkit-full-screen{
+    width: 98%;
+    height: 96%;
+    overflow: hidden !important;
+    font-size: 1.3em;
+}
+.sp-player:full-screen{
+    width: 98%;
+    height: 96%;
+    overflow: hidden !important;
+    font-size: 1.3em;
+}
+.sp-player:-ms-full-screen{
+    width: 98%;
+    height: 96%;
+    overflow: hidden !important;
+    font-size: 1.3em;
+}
+.sp-player:-moz-full-screen
+{
+    width: 98%;
+    height: 96%;
+    overflow: hidden !important;
+    font-size: 1.3em;
+}
+
+
+.sp-player:-webkit-full-screen .owl-item > div
+{
+    padding: 3%;
+    width: 94%;
+
+}
+.sp-player:full-screen .owl-item > div
+{
+    padding: 3%;
+    width: 94%;
+
+}
+.sp-player:-ms-full-screen .owl-item > div
+{
+    padding: 3%;
+    width: 94%;
+}
+.sp-player:-moz-full-screen .owl-item > div
+{
+    padding: 3%;
+    width: 94%;
+}
+
+/***Button****/
+.sp-player:-webkit-full-screen .full-screen{
+    background-position: bottom left;
+}
+.sp-player-player:full-screen .full-screen{
+    background-position: bottom left;
+}
+.sp-player:-ms-full-screen .full-screen{
+    background-position: bottom left;
+}
+.sp-player:-moz-full-screen .full-screen
+{
+    background-position: bottom left;
+}
+
+
+
+
+.sp-presentation-content
+{
+    width: 100%;
+    height: 100%;
+}
+
+.sp-player .owl-item:first-child
+{
+    background: url(../../images/bg-presentation.jpg) no-repeat bottom right;
+    background-size: cover;
+    font-family: 'Raleway',sans-serif;
+}
+
+.sp-presentation-content h2
+{
+    font-weight: bold ;
+    font-size: 2em  ;
+
+    color: #444;
+    position: absolute;
+    width :60%;
+    text-align: right;
+    bottom: 10%;
+    right: 10%;
+}
+
+.sp-presentation-content div
+{
+    font-size: 1.2em;
+    color: #444;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.sp-presentation-content h4
+{
+    line-height: 300%;
+}
+
+.sp-presentation-content h4 > strong
+{
+    text-decoration: underline;
+}
+
+
+
+/********Modal Share********/
+/* Mask for background, by default is not display */
+#mask {
+    display: none;
+    background: #555;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 999;
+}
+
+/* You can customize to your needs  */
+.login-popup *{
+    margin: 0;
+    padding: 0;
+}
+
+.login-popup .separator{
+    height: 1px;
+    margin : 10px 0;
+    border-bottom: 1px dashed #555;
+}
+.login-popup {
+    display: none;
+    background: #FFF;
+    padding: 10px;
+    border: 2px solid #ddd;
+    float: left;
+    font-size: 1.2em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 450px;
+    max-height: 360px;
+    overflow: auto;
+    z-index: 99999;
+    box-shadow: 0px 0px 20px #999;
+    /* CSS3 */
+    -moz-box-shadow: 0px 0px 20px #999;
+    /* Firefox */
+    -webkit-box-shadow: 0px 0px 20px #999;
+    /* Safari, Chrome */
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px;
+    /* Firefox */
+    -webkit-border-radius: 3px;
+    /* Safari, Chrome */;
+}
+
+.login-popup img.btn_close {
+    opacity: 0.5;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 3px;
+    right : 3px;
+}
+.login-popup img.btn_close:hover {
+    opacity: 0.8;
+}
+.login-popup h3 {
+    margin-top: 5px ;
+}
+
+
+
+.login-popup .button {
+    background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+    background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
+    background: -o-linear-gradient(top, #f3f3f3, #dddddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');
+    border-color: #000;
+    border-width: 1px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #333;
+    cursor: pointer;
+    display: block;
+    padding: 6px 6px 4px;
+    margin: 10px auto;
+    font: 12px;
+    width: 214px;
+
+}
+
+.button:hover {
+    background: #ddd;
+}
+
+.sp-player .loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.9;
+    z-index: 1060;
+    background: url(../../images/loading.gif) no-repeat 50% 50%,#FFF;
+}
+.hide
+{
+    display: none;
+}
+
+.login-popup .content
+{
+    min-height: 100px;
+    min-width: 400px;
+}
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes animminuteur {
+    from {
+        color : #EFEFEF;font-size: 1.2em
+    }
+    to {
+        color : #ac2925;font-size: 1em
+    }
+}
+
+/* Standard syntax */
+@keyframes animminuteur {
+    from {
+        color: #EFEFEF;
+        font-size: 1.2em
+    }
+    to {
+        color: #ac2925;
+        font-size: 1em
+    }
+}
+
+
+/*******Reseaux sociaux****/
+
+.div-share
+{
+    margin: 0;
+    max-width: 40px;
+    background: #323232;
+    position: absolute;
+    bottom: 92%;
+    display: none;
+}
+
+#btn-social
+{
+    color: #efefef;
+    margin:4px 4px 0 4px;
+    width: 32px;
+    height: 32px;
+    opacity:0.8;
+    position: relative;
+    transition:all 0.2s;
+    cursor: pointer;
+}
+#btn-social:hover
+{
+    opacity: 1;
+}
+#btn-social span
+{
+    color : #EFEFEF;
+    display: none;
+    background: #232323;
+    position: absolute;
+    padding: 3px;
+    opacity:0.8;
+    border-radius: 3px;
+    top :30%;
+    left:120%;
+    transition: all 0.12s;
+}
+
+.btn-social:hover
+{
+    opacity: 1;
+}
+.btn-facebook,
+.btn-facebook:hover,
+.btn-facebook:focus,
+.btn-facebook:active
+{
+    background: url(../../images/facebook.png) no-repeat;
+}
+.btn-twitter,
+.btn-twitter:hover,
+.btn-twitter:focus,
+.btn-twitter:active
+{
+    background: url(../../images/twitter.png) no-repeat;
+}
+.btn-linkedin,
+.btn-linkedin:hover,
+.btn-linkedin:focus,
+.btn-linkedin:active
+{
+    background: url(../../images/linkedin.png) no-repeat;
+}
+
+.btn-google,
+.btn-google:hover,
+.btn-google:focus,
+.btn-google:active
+{
+    background: url(../../images/google.png) no-repeat;
+}
+.btn-buddypress,
+.btn-buddypress:hover,
+.btn-buddypress:focus,
+.btn-buddypress:active
+{
+    background: url(../../images/buddypress.png) no-repeat;
+}

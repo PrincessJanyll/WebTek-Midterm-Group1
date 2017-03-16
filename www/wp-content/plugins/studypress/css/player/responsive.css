@@ -1,0 +1,79 @@
+@media(max-width: 1000px){
+    .sp-player
+    {
+        height: 336px;
+        width: 450px;
+        margin: 10px auto;
+        position: relative;
+        background: url(../../images/bg.png) repeat cover; /* Old browsers */
+        box-shadow: 0 0 1px #555;
+        font-size: 0.8em;
+
+    }
+
+
+    .sp-player-header
+    {
+        padding: 0 5px;
+        font-size: 12px;
+    }
+
+    .sp-player-left
+    {
+        display: none;
+
+    }
+    .sp-player .buttons-control,
+    .sp-player .buttons-control-left
+    {
+        bottom:22%;
+    }
+    .sp-player-right
+    {
+        width : 100%;
+        position: absolute;
+        right:0;
+        bottom: 0;
+        top:0;
+        left: 0;
+    }
+
+
+
+
+    .sp-presentation-content h4
+    {
+        line-height: 200%;
+    }
+    .sp-presentation-content h2
+    {
+
+        font-size: 1.8em;
+        text-align: right;
+        bottom: 4%;
+        right: 4%;
+    }
+
+    .sp-presentation-content div
+    {
+        top: 4%;
+        left: 4%;
+    }
+
+    .sp-player .sp-result .sp-postit
+    {
+        font-size:  1em;
+    }
+
+
+    .sp-player .sp-player-header
+    {
+        padding: 0 3px;
+    }
+
+    .sp-player .btn-begin
+    {
+        margin: 3px;
+    }
+
+}

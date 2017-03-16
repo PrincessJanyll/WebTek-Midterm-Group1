@@ -1,0 +1,23 @@
+Version 1.0.0
+i) Intial version Release
+
+Version 1.1.0
+i) Updated the theme as per new guideline.
+
+Version 1.2.0
+i) fixed remaining minor issues as per new guideline.
+
+Version 1.3.0
+i) Solved minor issues as per new guideline.
+
+Version 1.4.0
+i) Solved some minor issues.
+
+Version 1.5.0
+i) fixed all issues as per reviewer pointed out.
+
+Version 1.6.0
+i) fixed all issues as per reviewer pointed.
+
+Version 1.7.0
+i) prefix error solved as per reviewer pointed out.

@@ -1,0 +1,13 @@
+﻿
+
+table.sortable thead th:not([data-defaultsort=disabled]) {
+    cursor: pointer;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+table.sortable thead th:hover:not([data-defaultsort=disabled]) {
+    background: #efefef;
+}
+

@@ -1,0 +1,805 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-16 12:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: 404.php:15
+msgid "/images/error-img.png"
+msgstr ""
+
+#: 404.php:16
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:18
+msgid ""
+"Sorry, We couldn&rsquo;t find the page you&rsquo;re looking for. Why not try "
+"a search instead?"
+msgstr ""
+
+#: 404.php:23
+msgid "Back To Home Page"
+msgstr ""
+
+#: archive.php:40 index.php:45 search.php:41
+msgid "<span class=\"fa fa-angle-double-left\"></span>"
+msgstr ""
+
+#: archive.php:41 index.php:46 search.php:42
+msgid "<span class=\"fa fa-angle-double-right\"></span>"
+msgstr ""
+
+#: comments.php:30
+msgid "Comments"
+msgstr ""
+
+#: comments.php:47
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:50
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:51
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:64
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:76
+msgid "Required fields are marked"
+msgstr ""
+
+#: comments.php:81
+msgid "Name*"
+msgstr ""
+
+#: comments.php:85
+msgid "Email*"
+msgstr ""
+
+#: comments.php:89
+msgid "Website"
+msgstr ""
+
+#: comments.php:99
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:100
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:101
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:102
+msgid "POST COMMENT"
+msgstr ""
+
+#: comments.php:106
+msgid "Comment"
+msgstr ""
+
+#: comments.php:111
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:117
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:124
+msgid "Your email address will not be published. "
+msgstr ""
+
+#: functions.php:55
+msgid "Primary"
+msgstr ""
+
+#: functions.php:170
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:179
+msgid "Footer Widget One"
+msgstr ""
+
+#: functions.php:188
+msgid "Footer Widget Two"
+msgstr ""
+
+#: functions.php:197
+msgid "Footer Widget Three"
+msgstr ""
+
+#: header.php:27
+msgid "header-inner"
+msgstr ""
+
+#: search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: single.php:22
+msgid "<<"
+msgstr ""
+
+#: single.php:23
+msgid ">>"
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#: inc/customizer.php:19
+msgid "Choose Post"
+msgstr ""
+
+#: inc/customizer.php:27
+msgid "Choose Page"
+msgstr ""
+
+#: inc/customizer.php:43 inc/customizer.php:56
+msgid "Choose Category"
+msgstr ""
+
+#: inc/customizer.php:72
+msgid "Default Settings"
+msgstr ""
+
+#: inc/customizer.php:73
+msgid "Default section provided by wordpress customizer."
+msgstr ""
+
+#: inc/customizer.php:95
+msgid "Home Page Settings"
+msgstr ""
+
+#: inc/customizer.php:96
+msgid "Customize Home Page Settings"
+msgstr ""
+
+#: inc/customizer.php:104
+msgid "Banner Section"
+msgstr ""
+
+#: inc/customizer.php:122
+msgid "Enable Banner Section"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Select Banner Post"
+msgstr ""
+
+#: inc/customizer.php:151 inc/extra.php:393
+msgid "Get Started"
+msgstr ""
+
+#: inc/customizer.php:159 inc/widget-featured-post.php:110
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer.php:171
+msgid "Featured Section"
+msgstr ""
+
+#: inc/customizer.php:189
+msgid "Enable Featured Section"
+msgstr ""
+
+#: inc/customizer.php:208
+msgid "Select Featured Page"
+msgstr ""
+
+#: inc/customizer.php:228
+msgid "Select Featured Post One"
+msgstr ""
+
+#: inc/customizer.php:248
+msgid "Select Featured Post Two"
+msgstr ""
+
+#: inc/customizer.php:269
+msgid "Select Featured Post Three"
+msgstr ""
+
+#: inc/customizer.php:280 sections/section-featured.php:12
+msgid "View Full Menu"
+msgstr ""
+
+#: inc/customizer.php:288
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer.php:306
+msgid "Button Url"
+msgstr ""
+
+#: inc/customizer.php:319
+msgid "About Section"
+msgstr ""
+
+#: inc/customizer.php:337
+msgid "Enable About Section"
+msgstr ""
+
+#: inc/customizer.php:355
+msgid "Select About Page"
+msgstr ""
+
+#: inc/customizer.php:376 inc/customizer.php:612
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer.php:389
+msgid "Service Section"
+msgstr ""
+
+#: inc/customizer.php:407
+msgid "Enable Service Section"
+msgstr ""
+
+#: inc/customizer.php:425
+msgid "Select Service Page"
+msgstr ""
+
+#: inc/customizer.php:445
+msgid "Select Service Post One"
+msgstr ""
+
+#: inc/customizer.php:464
+msgid "Favicon For Service One"
+msgstr ""
+
+#: inc/customizer.php:483
+msgid "Select Service Post Two"
+msgstr ""
+
+#: inc/customizer.php:502
+msgid "Favicon For Service Two"
+msgstr ""
+
+#: inc/customizer.php:521
+msgid "Select Service Post Three"
+msgstr ""
+
+#: inc/customizer.php:541
+msgid "Favicon For Service Three"
+msgstr ""
+
+#: inc/customizer.php:554
+msgid "Testimonial Section"
+msgstr ""
+
+#: inc/customizer.php:572
+msgid "Enable Home Page Testimonial"
+msgstr ""
+
+#: inc/customizer.php:591
+msgid "Select Testimonial Page"
+msgstr ""
+
+#: inc/customizer.php:622
+msgid "Testimonial Settings"
+msgstr ""
+
+#: inc/customizer.php:640
+msgid "Enable Slider Auto Transition"
+msgstr ""
+
+#: inc/customizer.php:659
+msgid "Enable Slider Pager "
+msgstr ""
+
+#: inc/customizer.php:677
+msgid "Enable Slider Caption"
+msgstr ""
+
+#: inc/customizer.php:695
+msgid "Choose Slider Animation"
+msgstr ""
+
+#: inc/customizer.php:699
+msgid "Fade"
+msgstr ""
+
+#: inc/customizer.php:700
+msgid "Slide"
+msgstr ""
+
+#: inc/customizer.php:717
+msgid "Slider Speed"
+msgstr ""
+
+#: inc/customizer.php:735
+msgid "Slider Animation Speed"
+msgstr ""
+
+#: inc/customizer.php:754
+msgid "Choose Testimonial Category"
+msgstr ""
+
+#: inc/customizer.php:769
+msgid "Restaurant Menu Settings"
+msgstr ""
+
+#: inc/customizer.php:788
+msgid "Enable Restaurant Menu"
+msgstr ""
+
+#: inc/customizer.php:806
+msgid "Select Restaurant Menu Page"
+msgstr ""
+
+#: inc/customizer.php:825
+msgid "Choose Category One"
+msgstr ""
+
+#: inc/customizer.php:844
+msgid "Choose Category Two"
+msgstr ""
+
+#: inc/customizer.php:863
+msgid "Choose Category Three"
+msgstr ""
+
+#: inc/customizer.php:883
+msgid "Choose Category Four"
+msgstr ""
+
+#: inc/customizer.php:903
+msgid "Choose Category Five"
+msgstr ""
+
+#: inc/customizer.php:915
+msgid "Reservation Settings"
+msgstr ""
+
+#: inc/customizer.php:933
+msgid "Enable Reservation"
+msgstr ""
+
+#: inc/customizer.php:951
+msgid "Select Reservation Page"
+msgstr ""
+
+#: inc/customizer.php:971
+msgid "Reservation Shortcode Here"
+msgstr ""
+
+#: inc/customizer.php:992
+msgid "Reservation Background Image"
+msgstr ""
+
+#: inc/customizer.php:1004
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customizer.php:1022
+msgid "Enable Blog Section"
+msgstr ""
+
+#: inc/customizer.php:1040
+msgid "Select Blog Page"
+msgstr ""
+
+#: inc/customizer.php:1060
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer.php:1074
+msgid "Google Map Section"
+msgstr ""
+
+#: inc/customizer.php:1092
+msgid "Google Map Iframe Link"
+msgstr ""
+
+#: inc/customizer.php:1104
+msgid "Breadcrumb Settings"
+msgstr ""
+
+#: inc/customizer.php:1122
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: inc/customizer.php:1140
+msgid "Show current"
+msgstr ""
+
+#: inc/customizer.php:1150 inc/extra.php:72
+msgid "Home"
+msgstr ""
+
+#: inc/customizer.php:1158
+msgid "Breadcrumb Home Text"
+msgstr ""
+
+#: inc/customizer.php:1168 inc/extra.php:71
+msgid ">"
+msgstr ""
+
+#: inc/customizer.php:1176
+msgid "Breadcrumb Separator"
+msgstr ""
+
+#: inc/customizer.php:1188
+msgid "Custom CSS Settings"
+msgstr ""
+
+#: inc/customizer.php:1206
+msgid "Custom Css"
+msgstr ""
+
+#: inc/customizer.php:1208
+msgid "Put your custom CSS"
+msgstr ""
+
+#: inc/extra.php:141
+msgid "Search Result"
+msgstr ""
+
+#: inc/extra.php:255
+msgid " (Page"
+msgstr ""
+
+#: inc/extra.php:255
+msgid ")"
+msgstr ""
+
+#: inc/extra.php:306
+#, php-format
+msgid "<b class=\"fn\">%s</b>"
+msgstr ""
+
+#: inc/extra.php:309
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: inc/extra.php:316
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/extra.php:316
+msgid "(Edit)"
+msgstr ""
+
+#: inc/extra.php:409
+msgid ", "
+msgstr ""
+
+#: inc/extra.php:422
+msgid "scroll Down"
+msgstr ""
+
+#: inc/extra.php:556
+msgid "Copyright &copy; "
+msgstr ""
+
+#: inc/extra.php:558
+msgid "Restaurant And Cafe by Rara Theme"
+msgstr ""
+
+#: inc/extra.php:559
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: inc/extra.php:559
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: inc/info.php:11
+msgid "Information Links"
+msgstr ""
+
+#: inc/info.php:21
+msgid "Need help?"
+msgstr ""
+
+#: inc/info.php:22
+msgid "View demo"
+msgstr ""
+
+#: inc/info.php:22 inc/info.php:23 inc/info.php:24 inc/info.php:25
+#: inc/info.php:26 inc/info.php:27
+msgid "here"
+msgstr ""
+
+#: inc/info.php:23
+msgid "View documentation"
+msgstr ""
+
+#: inc/info.php:24
+msgid "Theme info"
+msgstr ""
+
+#: inc/info.php:25
+msgid "Support ticket"
+msgstr ""
+
+#: inc/info.php:26
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/info.php:27
+msgid "More WordPress Themes"
+msgstr ""
+
+#: inc/info.php:31
+msgid "About Restaurant And Cafe"
+msgstr ""
+
+#: inc/metabox.php:13
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/metabox.php:25
+msgid "Right Sidebar(default)"
+msgstr ""
+
+#: inc/metabox.php:30
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/metabox.php:42
+msgid "Choose Sidebar Template"
+msgstr ""
+
+#: inc/template-tags.php:28 inc/template-tags.php:137
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:41 sections/section-blog.php:67
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:41 sections/section-blog.php:67
+msgid "1"
+msgstr ""
+
+#: inc/template-tags.php:41 sections/section-blog.php:67
+msgid "%"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:56
+msgid "&nbsp; "
+msgstr ""
+
+#: inc/template-tags.php:59
+msgid "Tagged: "
+msgstr ""
+
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: inc/template-tags.php:67 template-parts/content-page.php:38
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#. Base ID
+#: inc/widget-featured-post.php:25
+msgid "RARA: Featured Post"
+msgstr ""
+
+#: inc/widget-featured-post.php:26
+msgid "A Featured Post Widget"
+msgstr ""
+
+#: inc/widget-featured-post.php:39 inc/widget-featured-post.php:95
+#: inc/widget-featured-post.php:135 sections/section-blog.php:66
+#: template-parts/content-search.php:34 template-parts/content.php:54
+msgid "Read More"
+msgstr ""
+
+#: inc/widget-featured-post.php:83
+msgid "--Choose--"
+msgstr ""
+
+#: inc/widget-featured-post.php:100
+msgid "Posts"
+msgstr ""
+
+#: inc/widget-featured-post.php:116 inc/widget-popular-post.php:119
+#: inc/widget-recent-post.php:115
+msgid "Show Post Thumbnail"
+msgstr ""
+
+#. Base ID
+#: inc/widget-popular-post.php:25
+msgid "RARA: Popular Post"
+msgstr ""
+
+#: inc/widget-popular-post.php:26
+msgid "A Popular Post Widget"
+msgstr ""
+
+#: inc/widget-popular-post.php:40 inc/widget-popular-post.php:100
+#: inc/widget-popular-post.php:143
+msgid "Popular Posts"
+msgstr ""
+
+#: inc/widget-popular-post.php:74 inc/widget-recent-post.php:71
+#: inc/widget-recent-post.php:71
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/widget-popular-post.php:108 inc/widget-recent-post.php:104
+#: inc/widget-social-links.php:92
+msgid "Title"
+msgstr ""
+
+#: inc/widget-popular-post.php:113 inc/widget-recent-post.php:109
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/widget-popular-post.php:124 inc/widget-recent-post.php:120
+msgid "Show Post Date"
+msgstr ""
+
+#. Base ID
+#: inc/widget-recent-post.php:25
+msgid "RARA: Recent Post"
+msgstr ""
+
+#: inc/widget-recent-post.php:26
+msgid "A Recent Post Widget"
+msgstr ""
+
+#: inc/widget-recent-post.php:40 inc/widget-recent-post.php:96
+#: inc/widget-recent-post.php:139
+msgid "Recent Posts"
+msgstr ""
+
+#. Base ID
+#: inc/widget-social-links.php:25
+msgid "RARA: Social Links"
+msgstr ""
+
+#: inc/widget-social-links.php:26
+msgid "A Social Links Widget"
+msgstr ""
+
+#: inc/widget-social-links.php:40 inc/widget-social-links.php:81
+#: inc/widget-social-links.php:142
+msgid "Subscribe & Follow"
+msgstr ""
+
+#: inc/widget-social-links.php:54 inc/widget-social-links.php:97
+msgid "Facebook"
+msgstr ""
+
+#: inc/widget-social-links.php:56 inc/widget-social-links.php:102
+msgid "Instagram"
+msgstr ""
+
+#: inc/widget-social-links.php:58 inc/widget-social-links.php:107
+msgid "Twitter"
+msgstr ""
+
+#: inc/widget-social-links.php:60 inc/widget-social-links.php:112
+msgid "Pinterest"
+msgstr ""
+
+#: inc/widget-social-links.php:62
+msgid "Linkedin"
+msgstr ""
+
+#: inc/widget-social-links.php:64 inc/widget-social-links.php:122
+msgid "YouTube"
+msgstr ""
+
+#: inc/widget-social-links.php:117
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/woocommerce-functions.php:37
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/woocommerce-functions.php:39
+msgid "Sidebar displaying only in woocommerce pages."
+msgstr ""
+
+#: sections/section-service.php:13 sections/section-service.php:14
+#: sections/section-service.php:15
+msgid "calendar"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:27 template-parts/content.php:43
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content.php:36
+#, php-format
+msgid "<div class=\"readmore\">Read More %s</div>"
+msgstr ""
+
+#. Name of the theme
+msgid "Restaurant and Cafe"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Restaurant and Cafe WordPress theme is a perfect solution for restaurants, "
+"cafe or any food and drink businesses. Whether you are running a cafe shop, "
+"a bakery or a large luxurious restaurant, Restaurant and Cafe theme will "
+"meet your expectation and give your customer a great experience! Restaurant "
+"and Cafe Theme comes with a Banner section, Feature section, About section, "
+"Services Section, Testimonial section, Restaurant Menu section, Reservation "
+"section and Blog section on Home or front-page. It is also WooCommerce ready "
+"and translation ready. The theme is responsive/mobile-friendly and so your "
+"website will look gorgeous in the mobile and tablet devices.Check the demo "
+"at https://raratheme.com/preview/restaurant-and-cafe/, documentation at "
+"https://raratheme.com/documentation/restaurant-cafe/  and get support at "
+"https://raratheme.com/support-ticket."
+msgstr ""
+
+#. URI of the theme
+msgid "https://raratheme.com/wordpress-themes/restaurant-and-cafe"
+msgstr ""
+
+#. Author of the theme
+msgid "Rara Theme"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://raratheme.com"
+msgstr ""

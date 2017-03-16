@@ -1,0 +1,12 @@
+
+.sp-player-right-top
+{
+	height: 90%;
+	position: absolute;
+	top: 0;
+	left:0;
+	right:0;
+	box-shadow: inset 0px 0px 2px #555;
+}
+
+
