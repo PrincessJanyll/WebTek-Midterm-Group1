@@ -1,0 +1,13 @@
+1. Install Wampserver and configure the permissions in order to be able to access localhost.
+Guides to change permissions:
+ - for localhost and phpmyadmin:
+ https://www.digifloor.com/simple-steps-fix-403-forbidden-errors-wamp-server-28
+
+
+2. Copy the www folder in your wamp file. No need to install wordpress.
+
+3. Import the sql file in phpmy admin. type localhost/phpmyadmin and click import. 
+Find the natural_science.sql file in the www folder.
+
+4. Type localhost in your browser. The website should appear.
+
