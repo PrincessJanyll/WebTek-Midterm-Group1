@@ -1,0 +1,38 @@
+.asgarosforum-widget {
+    font-size: 12px;
+}
+.asgarosforum-widget .widget-element {
+    display: table;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    width: 100%;
+}
+.asgarosforum-widget .widget-avatar,
+.asgarosforum-widget .widget-content {
+    display: table-cell;
+    vertical-align: top;
+}
+.asgarosforum-widget .widget-avatar {
+    width: 40px;
+}
+.asgarosforum-widget .widget-avatar img {
+    border: 1px solid #fff;
+    outline: 1px solid #ccc;
+    margin: 5px 10px 0 0;
+}
+.asgarosforum-widget .post-link,
+.asgarosforum-widget .post-author,
+.asgarosforum-widget .post-date {
+    display: block;
+}
+.asgarosforum-widget .post-link a {
+    font-weight: bold;
+    text-decoration: none;
+}
+.asgarosforum-widget .highlight-admin {
+    color: #e00000;
+}
+.asgarosforum-widget .highlight-moderator {
+    color: #099922;
+}
