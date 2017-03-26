@@ -1,0 +1,138 @@
+
+1. install Apache Web Server:
+	sudo apt-get install apache2 apache2-utils 
+
+//Enable the webserver 
+
+	sudo systemctl enable apache2
+ 	sudo systemctl start apache2
+// if there are any error on the first command just ignore it.
+	
+	
+You can test the server by going to the ip address of VM on a Web Browser
+
+	http ://ip_address
+// There should be a webpage saying "IT WORKS!"
+
+2. Install the Mysql Database Server on your VM
+
+	sudo apt-get install mysql-client mysql-server
+
+// During the secure installation  you will be prompt of few questions. Follow the instructions below.	
+
+	sudo mysql_secure installation
+	
+//You will be asked to install validate_password plugin type:
+	
+	y
+	
+//then enter the default password streghth You can set it on Low/Medium/High
+	
+	low
+	
+//another prompt with pop up and if you dont want to change root password then type
+	
+	n
+	
+otherwise 
+	
+	y
+	
+//Then you can just enter y on the rest of the questions.
+
+	
+3. Install PHP and Modules using the command below:
+	
+	sudo apt-get install php7.0 php7.0-mysql libapache2-mod-php7.0 php7.0-cli php7.0-cgi php7.0-gd  
+
+4. test the PHP if it is working properly by creating a php file on /var/www/html/.
+
+	sudo vi /var/www/html/info.php
+	
+//insert the following lines inside info.php :
+
+	<? php
+	phpinfo();
+	?>
+	
+//save and exit.
+//visit the website using browser by entering the following command:
+
+	http://ip_address/info.php
+
+// There should be a page showing information about PHP showing that it is working properly.
+
+5. Install wordpress CMS
+// Download the latest compressed file of wordpress and extract it using tar command.
+// if you already have the compressed file on your VM you can use that instead.
+
+	wget -c http://wordpress.org/latest.tar.gz
+	tar -xvf latest.tar.gz
+
+//copy the extracted files to the /var/www/html using rsync command:
+
+	sudo rsync -av wordpress/* /var/www/html/
+
+//give the user permissions on the website directory
+
+	sudo chown -R www-data:www-data /var/www/html/
+	sudo chmod -R 755 /var/www
+
+6. Create Wordpress Database
+//Loging on mysql using the commands below:
+// the password is your root password.
+
+	mysql -u root -p
+
+// after logging in you have to create a database for your wordpress :
+
+	CREATE DATABASE example_database;
+	GRANT ALL PRIVILEGES ON example_database.* TO 'your_username_here'@'localhost' IDENTIFIED BY 'your_chosen_password_here';'
+	FLUSH PRIVILEGES;
+	EXIT;
+
+if there was an error regarding the password being denied :
+	
+	SET GLOBAL validate_password_policy=LOW; 
+	
+// if still not working you should change your password to abide the mysql rule and try again.
+
+//go to /var/www/html using :
+
+	cd /var/www/html
+
+//rename the file wp-config-sample.php to wp-config.php to use it as the configuration for the wordpress.
+
+	sudo mv wp-config-sample.php wp-config.php
+
+//Inside the wp-config.php update the lines with your database info.
+
+	/ ** MySQL settings - You can get this info from your web host ** //
+	/** The name of the database for WordPress */
+	define('DB_NAME', 'example_database');
+	/** MySQL database username */
+	define('DB_USER', 'your_username_here');
+	/** MySQL database password */
+	define('DB_PASSWORD', 'your_chosen_password_here');
+	/** MySQL hostname */
+	define('DB_HOST', 'localhost');
+	/** Database Charset to use in creating database tables. */
+	define('DB_CHARSET', 'utf8');
+	/** The Database Collate type. Don't change this if in doubt. */
+	define('DB_COLLATE', '');
+
+//save it and exit
+	
+//restart the services of apache2 and mysql.
+	
+	sudo systemctl restart apache2.service 
+	sudo systemctl restart mysql.service 
+	 
+visit the website using browser
+
+	http://ip_address/index.php
+
+make sure your config is correct and has the same info with your database or else it will not work properly 
+
+let me know if there are any other problems.
+
